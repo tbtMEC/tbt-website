@@ -1,0 +1,19 @@
+.landing {
+  background-color: #853e3e;
+  height: 100vh;
+
+  ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  li {
+    margin: 1rem;
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(61, 57, 57);
+  }
+}
