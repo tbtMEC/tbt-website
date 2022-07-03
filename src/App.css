@@ -1,3 +1,12 @@
+/* global stylesheet */
+/* do not change unless you want to make some global changes affecting all sections */
+
 html {
   scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
