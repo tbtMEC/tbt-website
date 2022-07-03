@@ -1,7 +1,11 @@
-import React from "react";
+import "../styles/events.scss";
 
 const Events = () => {
-  return <div>Events</div>;
+  return (
+    <div className="section" id="events">
+      Events
+    </div>
+  );
 };
 
 export default Events;

@@ -1,7 +1,11 @@
-import React from "react";
+import "../styles/team.scss";
 
 const Team = () => {
-  return <div>Team</div>;
+  return (
+    <div className="section" id="team">
+      Team
+    </div>
+  );
 };
 
 export default Team;

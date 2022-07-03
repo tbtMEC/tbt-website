@@ -1,6 +1,13 @@
-.landing {
-  background-color: #853e3e;
+#landing {
   height: 100vh;
+
+  .bgImg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    height: 100vh;
+  }
 
   ul {
     display: flex;

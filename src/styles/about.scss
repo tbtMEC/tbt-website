@@ -1,4 +1,13 @@
-.about-section {
-  height: 90vh;
-  background-color: #aa2727;
+#about {
+  background-color: #300b0b;
+  img {
+    width: 50vw;
+    height: auto;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #about {
+    flex-wrap: wrap;
+  }
 }

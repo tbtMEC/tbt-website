@@ -1,7 +1,11 @@
-import React from "react";
+import "../styles/speakersForum.scss";
 
 const SpeakersForum = () => {
-  return <div>SpeakersForum</div>;
+  return (
+    <div className="section" id="speakersForum">
+      SpeakersForum sfsdf
+    </div>
+  );
 };
 
 export default SpeakersForum;
