@@ -1,3 +1,40 @@
 #readersForum {
-  // add styles inside this
+  border: solid 1px #7b6c6c;
+  background-color: #300b0b;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .flexbox-1 {
+    font-family: stoke;
+    color: rgba(246, 246, 208, 0.83);
+    display: flex;
+    flex-direction: row;
+  }
+
+  .flexbox-2 {
+    width: 350px;
+    height: 250px;
+    border-radius: 35%;
+    align-self: center;
+  }
+  .flexbox-3 {
+    font-family: poppins;
+    color: #edd7b8;
+    width: 50%;
+    display: block;
+    align-self: center;
+  }
+
+  @media screen and (max-width: 600px) {
+    #readersForum section {
+      flex-wrap: wrap;
+      justify-content: center;
+      height: auto;
+    }
+    .flexbox-2 {
+      width: auto;
+    }
+  }
 }
