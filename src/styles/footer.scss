@@ -1,3 +1,166 @@
 #footer {
   // add styles inside this
+  
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+  }
+  body{
+    background: #53171B;
+  }
+
+  /*for the border box*/
+  p.solid {
+  padding-block: 50px;
+  border-style: solid;
+  margin: 20px;
+  border-width: 0.5px;
+  
 }
+
+  footer{
+    background: #53171B;
+   position: absolute;
+   height: auto;
+   width: 100vw;
+   color:#DCD1B2;
+   font-family: 'poppins';
+   justify-content: center;
+  }
+  
+  
+  .row{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+  
+  .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .footer-content img{
+    width: 182px;
+    flex: 50%; 
+  }
+
+  .column li{
+    list-style: none;
+  }
+
+  .footer-content a{
+    text-decoration: none;
+    font-style: normal;
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 25px;
+    color: #DCD1B2;
+    flex: 50%;
+  }
+
+  .footer-content a:hover{
+    color: bisque;
+
+  }
+
+  @media (max-width:800px){
+    .row{
+      flex-direction: column;
+      justify-content: center;
+    }
+    .footer-content{
+      text-align: center;
+      padding-bottom: 50px;
+    }
+  }
+  
+.footer-bottom{
+  display: flex;
+  flex-direction: row;
+ }
+
+ .footer-bottom{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: row-reverse;
+     
+    }
+ 
+ .footer-bottom{
+   width: 100vw;
+   padding: 20px 0;
+   align-items: center;
+  }
+
+  .socials ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    vertical-align: bottom;
+    justify-content: center;
+    flex:50%;
+  }
+
+  .socials li{
+    margin: 0 20px;
+    list-style: none;
+  }
+
+  .socials a{
+    text-decoration: none;
+    color: #DCD1B2;
+  }
+
+  .socials a img{
+     text-align: center;
+     margin: 20px;
+     transition: all  .3s ease;
+  }
+
+  .socials a img:hover {
+    transform: scale(1.1);
+  }
+ 
+
+  /*for the line in between*/
+  hr {
+    border: 1px solid rgba(220, 209, 178, 0.83);
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .footer-bottom p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27px;
+    word-spacing: 1px;
+    line-height: 40px;
+    padding-right: 20px;
+    flex: 50%;
+  }
+
+  @media (max-width:800px){
+    .footer-bottom{
+      flex-direction: column-reverse;
+    }
+    .socials img{
+      padding-top: 20px;
+      align-items: center;
+      padding-right: 10px;
+    }
+  }
+}
+
+
