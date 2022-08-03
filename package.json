@@ -11,6 +11,7 @@
     "react-scripts": "^5.0.1",
     "sass": "^1.52.1",
     "typeface-poppins": "^1.1.13",
+    "typeface-stoke": "^1.1.13",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
