@@ -7,7 +7,7 @@ const Landing = () => {
       src="/assets/bg.png"
       alt="Thick Forest image as background"
       width="100%"
-      height="100%"
+      height="auto"
       className="bgImg"
     />
   
