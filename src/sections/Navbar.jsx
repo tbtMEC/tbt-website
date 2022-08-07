@@ -34,7 +34,7 @@ export default function Navbar() {
     </ul>
       )}
 
-      <button onClick={toggleNav} className="btnmenu"><img src="/assets/menu.png"/></button>
+      <button onClick={toggleNav} className="btnmenu"><img src="/assets/menu.png" alt=''/></button>
     </nav>
   )
 }

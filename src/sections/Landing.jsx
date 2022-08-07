@@ -5,7 +5,7 @@ const Landing = () => {
     <div className="section" id="landing">
     <img
       src="/assets/bg.png"
-      alt="Thick Forest image as background"
+      alt="Thick Forest as background"
       width="100%"
       height="auto"
       className="bgImg"
