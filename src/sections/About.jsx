@@ -11,21 +11,49 @@ const About = () => {
         alignItems: "center",
       }}
     >
-      <div className="">
-        <h1>About Us</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-          consectetur consequatur neque beatae laborum accusamus ad, quis
-          dolores ut nisi earum, tenetur ullam! Minima dignissimos debitis modi
-          perspiciatis, nostrum accusantium?
-        </p>
-      </div>
-      {/* <div className=""> */}
       <img
-        src="/assets/child-reading-sheets.png"
-        alt="Child reading under sheets"
+        src="/assets/Stars.png"
+        alt="Stars as background"
+        width="100%"
+        height="auto"
+        className="Stars1"
       />
-      {/* </div> */}
+      <img
+        src="/assets/Stars.png"
+        alt="Stars as background"
+        width="100%"
+        height="auto"
+        className="Stars2"
+      />
+      <img
+        src="/assets/Star.png"
+        alt="Stars as background"
+        width="100%"
+        height="auto"
+        className="Star1"
+      />
+      
+
+      <div className="container">
+        <div id="head_about">
+          <h1>About Us</h1>
+        </div>
+          <img className="gir_pho"
+            src="/assets/Vashti Harrison on Twitter 1.png"
+            alt="Dreaming child"
+          />
+        {/* <div id="head_about"> */}
+        <div id="about_cont">
+          <p>
+           Founded and run by passionate MECians, The Book Thieves is the literary club of Model Engineering College. It is a place for people to let their creativity run wild and express their thoughts and ideas freely. It is a haven for all those who love books, reading, and literature.
+          </p>
+        </div>
+      </div>
+      <img className="girl"
+          src="/assets/Vashti Harrison on Twitter 1.png"
+          alt="Dreaming child"
+      />
+      {/* </div> */} 
     </div>
   );
 };
