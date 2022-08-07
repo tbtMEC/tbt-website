@@ -3,9 +3,7 @@ import "../styles/readersForum.scss";
 const ReadersForum = () => {
   return (
     <div className="section" id="readersForum">
-<<<<<<< HEAD
       Readers Forum
-=======
       <div className="flexbox-item flexbox-1">
         <img src="/assets/smallbook.png" alt="book " width={"35px"} />
         <h2>The Readers Forum</h2>
@@ -24,7 +22,6 @@ const ReadersForum = () => {
           readers and let your wings of imagination fly.
         </p>
       </div>
->>>>>>> 5f2819d80bf0aa884cbe1fb3cf623ef9a24c8e82
     </div>
   );
 };

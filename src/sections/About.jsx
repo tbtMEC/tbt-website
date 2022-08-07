@@ -42,18 +42,20 @@ const About = () => {
             src="/assets/Vashti Harrison on Twitter 1.png"
             alt="Dreaming child"
           />
-        {/* <div id="head_about"> */}
         <div id="about_cont">
           <p>
-           Founded and run by passionate MECians, The Book Thieves is the literary club of Model Engineering College. It is a place for people to let their creativity run wild and express their thoughts and ideas freely. It is a haven for all those who love books, reading, and literature.
+           Founded and run by passionate MECians, The Book Thieves 
+           is the literary club of Model Engineering College. 
+           It is a place for people to let their creativity run wild and 
+           express their thoughts and ideas freely. It is a haven for all those 
+           who love books, reading, and literature.
           </p>
         </div>
       </div>
       <img className="girl"
           src="/assets/Vashti Harrison on Twitter 1.png"
           alt="Dreaming child"
-      />
-      {/* </div> */} 
+      /> 
     </div>
   );
 };
