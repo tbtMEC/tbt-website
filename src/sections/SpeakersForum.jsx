@@ -2,8 +2,75 @@ import "../styles/speakersForum.scss";
 
 const SpeakersForum = () => {
   return (
-    <div className="section" id="speakersForum">
-      SpeakersForum sfsdf
+    <div 
+      className="section" 
+      id="speakersForum"
+      style={{
+      display: "flex",
+      justifyContent: "space-evenly",
+      alignItems: "center",
+      }}
+    >  
+      <img
+        src="/assets/Stars.png"
+        alt="Stars as background"
+        width="100%"
+        height="auto"
+        className="Stars1"
+      />
+      <img
+        src="/assets/Stars.png"
+        alt="Stars as background"
+        width="100%"
+        height="auto"
+        className="Stars2"
+      />
+      <img
+        src="/assets/Stars.png"
+        alt="Stars as background"
+        width="100%"
+        height="auto"
+        className="Stars3"
+      />
+      <img
+        src="/assets/Star.png"
+        alt="Stars as background"
+        width="100%"
+        height="auto"
+        className="Star1"
+      />
+      <div className="">
+        <img className="mic"
+            src="/assets/microphone-svgrepo-com 1.png"
+            alt="mic"
+        />
+        <div id="head_speak">
+          <h1>The Speakers Forum</h1>
+        </div>
+        <img className="pho_girl"
+          src="/assets/Admire Framed Art Print by Vashti Harrison (1) 1.png"
+          alt="Smiling Child"
+        />
+        <div id="speak_cont">
+          <p>
+          The speaker’s forum is where you can take a mic and step forward.
+          From heated debates to poetry slams, you can work on your speaking 
+          skills while having fun at it. In this Round Table, polish 
+          and nourish the orator inside you.
+          </p>
+        </div>
+        <img className="mic_pho"
+            src="/assets/microphone-svgrepo-com 1.png"
+            alt="mic"
+        />
+      </div>
+
+      {/* <div className=""> */}
+      <img className="girl"
+        src="/assets/Admire Framed Art Print by Vashti Harrison (1) 1.png"
+        alt="Smiling Child"
+      />
+      {/* </div> */}
     </div>
   );
 };

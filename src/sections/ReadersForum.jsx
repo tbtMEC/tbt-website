@@ -3,6 +3,7 @@ import "../styles/readersForum.scss";
 const ReadersForum = () => {
   return (
     <div className="section" id="readersForum">
+      Readers Forum
       <div className="flexbox-item flexbox-1">
         <img src="/assets/smallbook.png" alt="book " width={"35px"} />
         <h2>The Readers Forum</h2>
