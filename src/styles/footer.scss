@@ -1,11 +1,13 @@
 #footer {
   // add styles inside this
+  html{
+    scroll-behavior: smooth;
+  }
   
   *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
   }
   body{
     background: #53171B;
@@ -14,23 +16,23 @@
 
   /*for the border box*/
   p.solid {
-  padding-block: 50px;
+  padding-block: 50px; 
   border-style: solid;
   margin: 20px;
   border-width: 0.5px;
   
 }
 
-  footer{
-    background: #53171B;
-   position: absolute;
-   height: auto;
-   width: 100vw;
-   color:#DCD1B2;
-   font-family: 'poppins';
-   justify-content: center;
-   display: block;
-  }
+footer{
+  background: #53171B;
+  position: absolute;
+  height: auto;
+  width: 100vw;
+  color:#DCD1B2;
+ font-family: 'poppins';
+ justify-content: center;
+ display: block;
+}
   
   
   .row{
@@ -39,7 +41,6 @@
     flex-direction: row;
   }
   
-  
   .footer-content{
     display: flex;
     align-items: center;
@@ -47,6 +48,7 @@
     flex-direction: column;
     align-content: center;
   }
+  
 
   .footer-content img{
     width: 182px;
@@ -171,7 +173,9 @@
     .footer-bottom{
       flex-direction: column-reverse;
     }
-    
+    .footer-bottom p{
+      padding-right: 0;
+    }    
     .socials img{
       max-height: 16px;
       width: auto;
