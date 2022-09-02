@@ -2,7 +2,8 @@ import "../styles/footer.scss";
 
 const Footer = () => {
   return (
-    <div className="section" id="footer">
+    <body>
+    <div id="footer">
 
       <footer>
        <p class="solid">
@@ -41,7 +42,7 @@ const Footer = () => {
           </div>
         </p>  
       </footer>
-    </div>
+    </div></body>
   );
 };
 
