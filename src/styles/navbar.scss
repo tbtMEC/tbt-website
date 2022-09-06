@@ -6,6 +6,7 @@ nav {
   text-align: center;
 
 .list {
+  top: 15vh;
   position: absolute;
   background: transparent;
   height: 100%;
@@ -16,12 +17,14 @@ nav {
   right: 0;
   margin: 0 auto;
 }
-.items {
+a {
+  margin-top: 5px;
   margin: 20px;
-  font-size: 25px;
+  font-size: 20px;
   font-family:poppins;
   color: #DCD1B2;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .btnmenu {
@@ -38,9 +41,10 @@ nav {
 @media screen and (max-width: 600px){
 
   .list {
+    top: 0;
       flex-direction: column;
-      height: auto;
-      width: 50%;
+      height: 100%;
+      width: 100%;
       background: #8E2F30;
       float: right;
       left: auto;
@@ -48,7 +52,7 @@ nav {
   }
   
   .items {
-      width: 50%;
+      width: 100%;
       margin: 10px;
       text-align: center;
      padding: 20px ;
