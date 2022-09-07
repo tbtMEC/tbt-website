@@ -1,0 +1,163 @@
+#writersForum {
+  background-color: #3E070A;
+  color: #F6F7D1;
+  height: 100vh;
+  width: auto;
+  left: 1px;
+  top: 0px;
+  border-radius: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+  #write_head{
+    height: 80px;
+    width: 669px;
+    left: 786px;
+    top: 365px;
+    border-radius: nullpx;
+    font-family: Stoke;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: -6%;
+
+  }
+
+  #write_cont{
+    height: 315px;
+    width: 662px;
+    left: 785px;
+    top: 455px;
+    border-radius: nullpx;
+    font-family: Poppins;   
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align:left;
+    margin-left: -6%;
+
+  }
+  .book{
+      height: 472px;
+      width: 630px;
+      left: 41px;
+      top: 232px;
+      border-radius: 118px;
+      margin-right: -5%;
+    }
+  .Stars2{
+    height: 80vh;
+    width: auto;
+    left: 40%;
+    right:5%;
+    top: auto;
+    border-radius: 0px;
+    position: absolute; 
+    padding-bottom: 0;  
+  }
+  .Stars3{
+    height: 90vh;
+    width: auto;
+    left: -66px;
+    top: auto;
+    border-radius: 0px;
+    position: absolute;  
+    background-size: 50% 50px;
+    align-items: center;
+    padding-right: -10%;
+    padding-left: auto;
+    padding-top: -10%;
+    
+  }
+  .pen{
+    padding-bottom: 52%;
+    margin-right: -50%;
+  }  
+  .book_pho{
+    display: none;
+  }
+  .Star1{
+    display: none;
+  }
+  .pen_pho{
+    display:none;
+  }
+
+  }
+  
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #writersForum {
+      flex-wrap: wrap;
+      height: 800px;
+      width: auto;
+      flex-direction: column;
+      align-items: center;
+      
+
+      #write_head{
+        height: 10px;
+        width: auto;
+        border-radius: nullpx;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: center;
+        align-items: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      #write_cont{
+        height: 340px;
+        width: 264px;
+        padding-top: 0%;
+        margin-left: 1%;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align:center;
+      }
+      .book_pho{
+        height: 194px;
+        width: 242px;
+        border-radius: 0px;
+        margin-top: 80px;
+        display: inline;
+        margin-left: 3%;
+        margin-bottom: 3%;
+      }
+      .Star1{
+        display:block;
+        min-height: 800px;
+        max-width: 480px;
+        top: auto;
+        border-radius: 0px;
+        position: absolute;
+      }
+      .pen_pho{
+        display:block;
+        align-items: center;
+        max-height: 42px;
+        max-width: 42px;
+        margin-left: 40%; 
+        top:0px;        
+      }
+      
+      .book{
+        display: none;
+      }
+      .Stars3{
+         display: none;
+       }
+      .Stars2{
+         display: none;
+       }
+      .pen{
+        display: none;
+      }
+  }
+}
