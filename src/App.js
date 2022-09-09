@@ -11,8 +11,10 @@ import ReadersForum from "./sections/ReadersForum";
 function App() {
   return (
     <div className="App">
-      <Navbar />
+
+      
       <Landing />
+      <Navbar/>
       <About />
       <ReadersForum />
       <WritersForum />
