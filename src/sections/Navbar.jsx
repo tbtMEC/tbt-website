@@ -26,11 +26,16 @@ export default function Navbar() {
 
   return (
     <nav>
+     
       {(toggleMenu || screenWidth > 600) && (
+        
       <ul className="list">
-      <li className="items">Home</li>
-      <li className="items">Services</li>
-      <li className="items">Contact</li>
+      <li className="items"><a href="#about">About</a></li>
+      <li className="items"><a href="#readersForum">The Reader's Forum</a></li>
+      <li className="items"><a href="#writersForum">The Writer's Forum</a></li>
+      <li className="items"><a href="#speakersForum">The Speaker's Forum</a></li>
+      <li className="items"><a href="#events">Events</a></li>
+      <li className="items"><a href="#team">Team</a></li>
     </ul>
       )}
 

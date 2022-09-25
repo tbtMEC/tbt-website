@@ -8,23 +8,31 @@
     z-index: -1;
     height: 100vh;
   }
- 
+  .logo{
+    position: absolute;
+    margin-left: 45%;
+    top: 0%;
+    width: 111px;
+    height: 96px;
+  }
+
   h1
   {
     font-family: Stoke;
-    font-size: 96px;
+    font-size: 90px;
     color: #f6f7d1;
     text-align: center;
-    margin: 200px 0;
+    margin-top: 45vh;
+    
    
    }
    p
    {
      font-family: Stoke;
-     font-size: 30px;
+     font-size: 25px;
      color: #EDD7B8;
      text-align: center;
-     margin-top: -200px;
+     
     
    }
    .join-btn
@@ -50,6 +58,12 @@
       .bgImg{
         object-fit: none;
         object-position: 50% 0;
+      }
+      .logo{
+        width: 50px;
+        height: 45px;
+        margin-left: 20px;
+        margin-top: 10px;
       }
       h1{
       font-size: 40px;
