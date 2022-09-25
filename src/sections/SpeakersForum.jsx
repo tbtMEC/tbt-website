@@ -39,19 +39,19 @@ const SpeakersForum = () => {
         height="auto"
         className="Star1"
       />
-      <div className="">
+      <div className="container">
         <img className="mic"
             src="/assets/microphone-svgrepo-com 1.png"
             alt="mic"
         />
-        <div id="head_speak">
+        <div id="head_speak" className="box-1">
           <h1>The Speakers Forum</h1>
         </div>
         <img className="pho_girl"
           src="/assets/Admire Framed Art Print by Vashti Harrison (1) 1.png"
           alt="Smiling Child"
         />
-        <div id="speak_cont">
+        <div id="speak_cont" className="box-2">
           <p>
           The speaker’s forum is where you can take a mic and step forward.
           From heated debates to poetry slams, you can work on your speaking 
@@ -59,10 +59,12 @@ const SpeakersForum = () => {
           and nourish the orator inside you.
           </p>
         </div>
-        <img className="mic_pho"
-            src="/assets/microphone-svgrepo-com 1.png"
-            alt="mic"
-        />
+        <div className="box-3"> 
+          <img className="mic_pho"
+              src="/assets/microphone-svgrepo-com 1.png"
+              alt="mic"
+          />
+        </div>
       </div>
 
       {/* <div className=""> */}
