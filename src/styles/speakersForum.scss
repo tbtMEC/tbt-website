@@ -114,15 +114,17 @@
     padding-top: -50%;
     
     .container{
+      max-width: 440px;
       margin-left: 20px;
       align-items: center;
       margin-top: -53px;
     }
+    
 
     #head_speak{
       height: 10px;
       width: auto;
-      font-size: 17px;
+      font-size: 15px;
       font-weight: 400;
       line-height: 44px;
       letter-spacing: 0em;
@@ -136,7 +138,7 @@
         width: 264px;
         padding-top: 0%;
         margin-left: 1%;
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 400;
         line-height: 32px;
         letter-spacing: 0em;
