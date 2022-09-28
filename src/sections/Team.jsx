@@ -75,7 +75,7 @@ const Team = () => {
 
      </div>
 
-     <button onclick="topFunction()" id="scroll" title="Go to top"><img src="assets\scroll.png" alt="^"/></button>
+     <a href="#landing" id="scroll"><img src="assets\scroll.png" alt="^"/></a>
      
     
      

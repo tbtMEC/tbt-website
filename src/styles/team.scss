@@ -1,11 +1,11 @@
 #team {
   background: #53090e;
-  height:270vh;
+  height:254vh;
   background-position: center center;
   background-attachment:scroll;
   background-size:contain;
   background-image:url("https://the-book-thieves.netlify.app/assets/Stars.png");
-
+  
  
   }
 
@@ -94,14 +94,13 @@ padding-right:10vw;
 #scroll{
 background: transparent;
 border: none;
-padding-top: 15vh;
-padding-left: 43vw;
-size: 80%;
+padding-top: 8vw;
+padding-left: 41vw;
+display: inline-block;
+scroll-behavior: smooth;
+
 }
 
-#scroll.show{
-  opacity: 0.5;  
-    transition: opacity 1s, transform 1s; 
-  
-}
+
+
 
