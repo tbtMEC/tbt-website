@@ -8,21 +8,42 @@
   border-radius: 0px;
   padding-left: 50px;
   padding-right: 50px;
+  overflow: hidden;
 
   .mic{
-    padding-left: 50%;
+    padding-left: 45%;
     padding-bottom: 0%;
     padding-top: 0%
+  }
+  .container{
+    max-height: 100vh;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 15px;
+  }
+  .box-1{
+    max-height: fit-content;
+    justify-content:flex-start;
+    margin-bottom: 25px;
+  }
+  .box-2{
+    max-height:max-content;    
+  }
+  .box-3{
+    justify-content: flex-start;
+    align-items: center;
+    max-block-size: 50%;
   }
   
   #head_speak{
     font-family: Stoke;
     font-size: 32px;
     font-weight: 300;
-    line-height: 150px;
+    max-height: fit-content;
     letter-spacing: 0em;
     text-align: right;
-    margin-left: auto;
+    margin-left:-12%;
     margin-right: auto;
   }
   #speak_cont{
@@ -34,12 +55,13 @@
     text-align: right;    
   }
   .girl{
-    height: 537px;
-    width: 681px;
     left: 694px;
     top: 224px;
     border-radius: 71px;
-    margin-left: 20px;
+    margin-left: 15px;
+    margin-right: -24px;
+    max-height: 600px;
+    max-width: 650px;
   }
   
   .Stars1{
@@ -90,14 +112,21 @@
     flex-direction: column;
     align-items: center;
     padding-top: -50%;
+    
+    .container{
+      max-width: 440px;
+      margin-left: 20px;
+      align-items: center;
+      margin-top: -53px;
+    }
+    
 
     #head_speak{
       height: 10px;
       width: auto;
-      border-radius: nullpx;
-      font-size: 20px;
+      font-size: 15px;
       font-weight: 400;
-      line-height: 38px;
+      line-height: 44px;
       letter-spacing: 0em;
       text-align: center;
       align-items: flex-start;
@@ -105,11 +134,11 @@
       margin-right: auto;
     }
     #speak_cont{
-      height: 340px;
+        height: 340px;
         width: 264px;
         padding-top: 0%;
         margin-left: 1%;
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 400;
         line-height: 32px;
         letter-spacing: 0em;
@@ -119,9 +148,10 @@
       height: 205px;
       width: 244px;
       margin-left: 3%;
-      margin-top: 80px;
+      margin-top: 68px;
       border-radius: 0px;
       display: inline;
+      margin-bottom: 20px;
     }
     .Star1{
       display: block;
@@ -137,7 +167,8 @@
       max-height: 46px;
       max-width: 33.15625px;
       top: 0px;
-      margin-left: 45%;   
+      margin-left: 45%; 
+      margin-top: 30px;  
 
     }
     .girl{

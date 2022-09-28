@@ -32,7 +32,7 @@ const WritersForum = () => {
         height="auto"
         className="Star1"
       />   
-      <div className="">
+      <div className="box-3">
         <img
           className="book"
           src="/assets/child-reading-sheets.png"
@@ -45,8 +45,8 @@ const WritersForum = () => {
         />
       </div>
       {/* <div className=""> */}
-      <div>
-        <div id="write_head"> 
+      <div className="container">
+        <div id="write_head" className="box-1"> 
           <h1>The Writers Forum</h1>
         </div>
         <img
@@ -54,7 +54,7 @@ const WritersForum = () => {
           src="/assets/child-reading-sheets.png"
           alt="Child under sheet"
         />
-        <div id="write_cont"> 
+        <div id="write_cont" className="box-2"> 
           <p>
           The writer’s forum is a platform to develop writing skills in 
           diverse fields and to share works with a bunch of like-minded people. 

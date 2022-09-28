@@ -8,15 +8,38 @@
   border-radius: 0px;
   padding-left: 50px;
   padding-right: 50px;
+  overflow: hidden;
+
+  .container{
+    max-height: 100vh;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 15px;
+  }
+  .box-1-abo{
+     justify-content: flex-start;
+     margin-bottom: 15px;
+  }
+  .box-2-abo{
+    justify-content: flex-start;
+  }
+  .box-3-abo{
+    justify-content: flex-start;
+    align-items: center;
+    max-block-size: 50%;
+    max-height: 537px;
+    max-width: 681px;
+  }
 
   #head_about{
     font-family: Stoke;
     font-size: 40px;
     font-weight: 300;
-    line-height: 150px;
+    max-height: fit-content;
     letter-spacing: 0em;
     text-align: right;
-    margin-left: 230px;
+    margin-left: 10px;
     margin-right: auto;
   }
 
@@ -26,16 +49,15 @@
     font-weight: 400;
     line-height: 50px;
     letter-spacing: 0em;
-    text-align: right;    
+    text-align: right;
+    max-height: fit-content;    
   }
     
-  .girl{
-    height: 537px;
-    width: 681px;
+  .girl{    
     left: 694px;
     top: 224px;
     border-radius: 71px;
-    margin-left: 20px;
+    margin-left: 20px;    
   }
   
   .Stars1{
@@ -79,20 +101,20 @@
     display:flex;    
     left:0%;    
     flex-direction: column;
-    align-items: center;
-    flex-direction: column;    
+    align-items: center;   
     padding-top: -50%;
 
     #head_about{
       min-height: 40px;
       min-width: auto;
-      font-size: 28px;
+      font-size: 20px;
       font-weight: 400;
-      line-height: 40px;
+      line-height: 70px;
       letter-spacing: 0em;
       margin-left: 0%;
       margin-right: 0%; 
       padding-top: 0%;
+      margin-bottom: -5px;
       text-align: center;   
     }
     .gir_pho{
@@ -103,14 +125,14 @@
       margin-top: 30px;
       margin-bottom: -30px;
       align-items: center;
-      margin-left: 8%;
+      margin-left: 13%;
     }
 
     #about_cont{
       min-height: 340px;
       min-width: 264px;
       padding-top: 20%;
-      font-size: 22px;
+      font-size: 20px;
       font-weight: 400;
       line-height: 32px;
       letter-spacing: 0em;
