@@ -1,3 +1,111 @@
 #readersForum {
-  // add styles inside this
+  background-color: #360709;
+  color: #f6f7d1;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .flexbox-1 {
+    display: flex;
+    height: fit-content;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+  .head {
+    font-family: Stoke;
+    width: 802px;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 81px;
+    text-align: center;
+    color: rgba(246, 247, 208, 0.83);
+  }
+
+  .child {
+    width: 576px;
+    height: 491px;
+    filter: blur(1px);
+    border-radius: 118px;
+    align-self: center;
+    margin-bottom: 50px;
+  }
+  .flexbox-3 {
+    font-family: Poppins;
+    width: 63%;
+    height: fit-content;
+    font-size: 36px;
+    margin-bottom: 60px;
+  }
+  p {
+    text-align: center;
+    line-height: 51.66px;
+    padding-top: 20px;
+  }
+  .book1 {
+    width: 0;
+    height: 0;
+  }
+
+  @media only screen and (max-device-width: 640px) {
+    #readersForum section {
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      height: 800px;
+      width: auto;
+    }
+
+    .flexbox-1 {
+      width: 282px;
+      height: 80px;
+      margin-top: 27px;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+    .head {
+      font-style: normal;
+
+      font-size: 32px;
+      line-height: 40px;
+      font-weight: bold;
+      display: flex;
+      color: rgba(246, 246, 208, 0.83);
+      text-align: center;
+    }
+    .book {
+      height: 0;
+      width: 0;
+    }
+
+    .child {
+      width: 214px;
+      height: 182.87px;
+      border-radius: 30%;
+      filter: blur(0);
+      margin-bottom: 2px;
+    }
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 143.5%;
+      text-align: center;
+    }
+    .flexbox-3 {
+      width: 264px;
+      height: 340px;
+      margin-bottom: 120px;
+    }
+    .book1 {
+      width: 43.98px;
+      height: auto;
+      position: absolute;
+      padding-top: 50.4px;
+      right: 44.73%;
+    }
+  }
 }

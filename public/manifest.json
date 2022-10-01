@@ -13,10 +13,26 @@
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "insta.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "192x31"
+    },
+    {
+      "src": "linkedin.png",
+      "type": "image/png",
+      "sizes": "32x33"
+    },
+    {
+      "src": "discord.png",
+      "type": "image/png",
+      "sizes": "28x39"
+    },
+    {
+      "src": "OFFICIAL_LOGO1 1.png",
+      "type": "image/png",
+      "sizes": "132x184"
     }
+   
   ],
   "start_url": ".",
   "display": "standalone",

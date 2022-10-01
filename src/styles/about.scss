@@ -1,13 +1,163 @@
 #about {
   background-color: #300b0b;
-  img {
-    width: 50vw;
-    height: auto;
+  color: #F6F7D1;
+  height: 100vh;
+  width: auto;
+  left: 1px;
+  top: 0px;
+  border-radius: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  overflow: hidden;
+
+  .container{
+    max-height: 100vh;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 15px;
+  }
+  .box-1-abo{
+     justify-content: flex-start;
+     margin-bottom: 15px;
+  }
+  .box-2-abo{
+    justify-content: flex-start;
+  }
+  .box-3-abo{
+    justify-content: flex-start;
+    align-items: center;
+    max-block-size: 50%;
+    max-height: 537px;
+    max-width: 681px;
+  }
+
+  #head_about{
+    font-family: Stoke;
+    font-size: 40px;
+    font-weight: 300;
+    max-height: fit-content;
+    letter-spacing: 0em;
+    text-align: right;
+    margin-left: 10px;
+    margin-right: auto;
+  }
+
+  #about_cont{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: right;
+    max-height: fit-content;    
+  }
+    
+  .girl{    
+    left: 694px;
+    top: 224px;
+    border-radius: 71px;
+    margin-left: 20px;    
+  }
+  
+  .Stars1{
+    height: 100vh;
+    width: auto;
+    left: 56px;
+    top: auto;
+    border-radius: 0px;
+    position: absolute;
+  }
+  .Stars2{
+    height: 80vh;
+    width: auto;
+    left: -66px;
+    top: auto;
+    border-radius: 0px;
+    position: absolute;  
+    background-size: 50% 50px;
+    align-items: center;
+    padding-left: 20px;
+
+  }
+  .gir_pho{
+    display: none;
+  }
+  .Star1{
+    display:none;
+  }
+  .Star2{
+    display:none;
   }
 }
+
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   #about {
     flex-wrap: wrap;
+    min-height: 800px;
+    width: auto;
+    border-radius: 0px;
+    display:flex;    
+    left:0%;    
+    flex-direction: column;
+    align-items: center;   
+    padding-top: -50%;
+
+    #head_about{
+      min-height: 40px;
+      min-width: auto;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 70px;
+      letter-spacing: 0em;
+      margin-left: 0%;
+      margin-right: 0%; 
+      padding-top: 0%;
+      margin-bottom: -5px;
+      text-align: center;   
+    }
+    .gir_pho{
+      display: block;
+      height: 169px;
+      width: 214px;
+      border-radius: 0px;
+      margin-top: 30px;
+      margin-bottom: -30px;
+      align-items: center;
+      margin-left: 13%;
+    }
+
+    #about_cont{
+      min-height: 340px;
+      min-width: 264px;
+      padding-top: 20%;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 0em;
+      align-items: center;
+      text-align:center;
+    }
+    .Star1{
+      display:block;
+      min-height: 800px;
+      max-width: 480px;
+      top: auto;
+      border-radius: 0px;
+      position: absolute;
+    }
+    
+    .girl{
+      display:none;
+    }
+    .Stars1{
+      display:none;
+    }
+    .Stars2{
+      display: none;
+    }
+    
+
   }
 }
