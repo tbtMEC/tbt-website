@@ -30,6 +30,7 @@ export default function Navbar() {
       {(toggleMenu || screenWidth > 600) && (
         
       <ul className="list">
+        
       <li className="items"><a href="#about">About</a></li>
       <li className="items"><a href="#readersForum">The Reader's Forum</a></li>
       <li className="items"><a href="#writersForum">The Writer's Forum</a></li>
@@ -37,6 +38,7 @@ export default function Navbar() {
       <li className="items"><a href="#events">Events</a></li>
       <li className="items"><a href="#team">Team</a></li>
     </ul>
+    
       )}
 
       <button onClick={toggleNav} className="btnmenu"><img src="/assets/menu.png" alt=''/></button>

@@ -1,15 +1,16 @@
 nav {
   top: 0;
   width: 100%;
-  height: 50px;
+  height: 10px;
   background: transparent;
   text-align: center;
+  scroll-behavior: smooth;
 
 .list {
   top: 15vh;
   position: absolute;
   background: transparent;
-  height: 100%;
+  height: 50%;
   display: flex;
   justify-content:center;
   list-style-type: none;

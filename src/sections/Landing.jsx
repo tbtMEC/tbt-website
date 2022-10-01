@@ -16,14 +16,15 @@ const Landing = () => {
     />
    
       <div style={{ textAlign: "center" }} className="text-content">
-        <h1>Welcome to TBT</h1>
-        <p>
-        For flippers, scribblers and tripsters 
-        </p>
-        <button className="join-btn">Join Us</button>
+      <h1>Welcome to TBT</h1>
+
+               <p> For flippers, scribblers and tripsters </p>
+          <button className="join-btn"><a href="https://discord.gg/eQ7GcZcPw5">Join Us</a></button>
+ 
       </div>
     </div>
   );
+  
 };
 
 export default Landing;
