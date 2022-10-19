@@ -2,7 +2,19 @@ import "../styles/readersForum.scss";
 
 const ReadersForum = () => {
   return (
-    <div className="section" id="readersForum">
+    <div className="section" id="readersForum" >
+      <img 
+        src="/assets/readstars.png" 
+        alt="stars" 
+        width="100%" height="auto"
+        className="Stars"
+      />
+      <img 
+        src="/assets/readstar.png" 
+        alt="stars" 
+        width="100%" height="auto"
+        className="stars"
+      />
       <div className="flexbox-item flexbox-1">
         <img
           className="book"
@@ -12,7 +24,9 @@ const ReadersForum = () => {
           width="100px"
         />
         <h1 className="head">The Readers Forum</h1>
+       
       </div>
+      
       <div className="flexbox-item">
         <img
           className=" child"
@@ -20,6 +34,7 @@ const ReadersForum = () => {
           alt="reading"
         />
       </div>
+       
       <div className="flexbox-item flexbox-3">
         <p>
           The reader’s forum is a place where we celebrate the art of reading,
@@ -35,6 +50,7 @@ const ReadersForum = () => {
         />
       </div>
     </div>
+    
   );
 };
 
