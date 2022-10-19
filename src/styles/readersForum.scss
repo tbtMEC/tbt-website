@@ -1,20 +1,25 @@
 #readersForum {
   background-color: #360709;
-  color: #f6f7d1;
   height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  position: relative;
 
   .flexbox-1 {
     display: flex;
     height: fit-content;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    padding-top: 70px;
-    padding-bottom: 50px;
+    margin-top: 50px;
+    width:88%;
+    
+  }
+  .book{
+    width:100px;
+    
   }
   .head {
     font-family: Stoke;
@@ -25,26 +30,37 @@
     text-align: center;
     color: rgba(246, 247, 208, 0.83);
   }
-
+  
   .child {
     width: 576px;
     height: 491px;
     filter: blur(1px);
-    border-radius: 118px;
+    border-radius: 30%;
     align-self: center;
-    margin-bottom: 50px;
+    margin-top:10px  ;
+    padding: 0 30px ;
+    margin-bottom: 20px;
+  }
+  .Stars{
+    position: absolute;
+    width: auto;
+    height: auto;
+    border-radius: 0px;
+  }
+  .stars{
+    height:0;
   }
   .flexbox-3 {
     font-family: Poppins;
-    width: 63%;
+    width: 66%;
     height: fit-content;
-    font-size: 36px;
+    font-size: 30px;
     margin-bottom: 60px;
   }
   p {
     text-align: center;
-    line-height: 51.66px;
-    padding-top: 20px;
+    line-height: 143.5%;
+    color: #EDD7B8;;
   }
   .book1 {
     width: 0;
@@ -68,7 +84,6 @@
     }
     .head {
       font-style: normal;
-
       font-size: 32px;
       line-height: 40px;
       font-weight: bold;
@@ -86,7 +101,9 @@
       height: 182.87px;
       border-radius: 30%;
       filter: blur(0);
-      margin-bottom: 2px;
+      margin-top:0px;
+      margin-bottom: 20px;
+      padding:0;
     }
     p {
       font-style: normal;
@@ -94,6 +111,7 @@
       font-size: 22px;
       line-height: 143.5%;
       text-align: center;
+      
     }
     .flexbox-3 {
       width: 264px;
@@ -106,6 +124,17 @@
       position: absolute;
       padding-top: 50.4px;
       right: 44.73%;
+    }
+    .Stars{
+      display:none;
+    }
+    .stars{
+      width: 100%;
+      height: auto;
+      top: 10px;
+      border-radius: 0px;
+      position: absolute;
+      image-resolution: 1080px; 
     }
   }
 }
