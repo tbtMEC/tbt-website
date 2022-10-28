@@ -11,7 +11,7 @@ const Team = () => {
       
       <div class ="head"> 
         Our Team
-        <img src="https://the-book-thieves.netlify.app/assets/Stars.png" alt="Stars as background" width="100%" height="auto" class="Stars1"></img>
+        
       </div>
       
         
