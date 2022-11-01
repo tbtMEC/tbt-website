@@ -46,7 +46,7 @@ footer{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    align-content: center;
+    //align-content: center;
   }
   
 
@@ -84,7 +84,7 @@ footer{
       padding-bottom: 40px;
     }
     .footer-content img{
-      max-height: 71px ;
+      max-height: 100px ;
       width: auto;
     }
     .footer-content a{
@@ -111,7 +111,7 @@ footer{
     }
  
  .footer-bottom{
-   width: 100vw;
+   //width: 97vw;
    padding: 20px 0;
    align-items: center;
   }
