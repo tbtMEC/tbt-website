@@ -3,11 +3,9 @@
   color: #F6F7D1;
   height: 100vh;
   width: auto;
-  left: 1px;
-  top: 0px;
   border-radius: 0px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 6%;
+  padding-right: 6%;
   overflow: hidden;
 
   .container{
@@ -15,7 +13,7 @@
     justify-content: flex-start;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-right: 15px;
+    margin-right: 1%;
   }
   .box-1-abo{
      justify-content: flex-start;
@@ -28,56 +26,51 @@
     justify-content: flex-start;
     align-items: center;
     max-block-size: 50%;
-    max-height: 537px;
-    max-width: 681px;
+    max-height: 72%;
+    max-width: 50%;
   }
 
   #head_about{
     font-family: Stoke;
-    font-size: 40px;
+    font-size: 257%;
     font-weight: 300;
     max-height: fit-content;
     letter-spacing: 0em;
     text-align: right;
-    margin-left: 10px;
     margin-right: auto;
   }
 
   #about_cont{
     font-family: Poppins;
-    font-size: 30px;
+    font-size: 187%;
     font-weight: 400;
-    line-height: 50px;
+    line-height: 166%;
     letter-spacing: 0em;
     text-align: right;
     max-height: fit-content;    
   }
     
   .girl{    
-    left: 694px;
-    top: 224px;
-    border-radius: 71px;
-    margin-left: 20px;    
+    margin-left: 4%;    
   }
   
   .Stars1{
     height: 100vh;
     width: auto;
-    left: 56px;
+    left: 4%;
     top: auto;
-    border-radius: 0px;
     position: absolute;
   }
   .Stars2{
     height: 80vh;
     width: auto;
-    left: -66px;
+    left: -3%;
     top: auto;
     border-radius: 0px;
     position: absolute;  
-    background-size: 50% 50px;
+    background-size: 50% 8%;
     align-items: center;
-    padding-left: 20px;
+    padding-left: 1%;
 
   }
   .gir_pho{
@@ -95,9 +88,8 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   #about {
     flex-wrap: wrap;
-    min-height: 800px;
+    min-height: 100%;
     width: auto;
-    border-radius: 0px;
     display:flex;    
     left:0%;    
     flex-direction: column;
@@ -105,46 +97,43 @@
     padding-top: -50%;
 
     #head_about{
-      min-height: 40px;
+      min-height: 5%;
       min-width: auto;
-      font-size: 20px;
+      font-size: 125%;
       font-weight: 400;
-      line-height: 70px;
+      line-height: 8%;
       letter-spacing: 0em;
       margin-left: 0%;
       margin-right: 0%; 
       padding-top: 0%;
-      margin-bottom: -5px;
+      margin-bottom: 0%;
       text-align: center;   
     }
     .gir_pho{
       display: block;
-      height: 169px;
-      width: 214px;
-      border-radius: 0px;
-      margin-top: 30px;
-      margin-bottom: -30px;
+      height: 32%;
+      width: 60%;
+      border-radius: 0%;
+      margin-top: 6%;
+      margin-bottom: -10%;
       align-items: center;
-      margin-left: 13%;
+      margin-left: 18%;
     }
 
     #about_cont{
-      min-height: 340px;
-      min-width: 264px;
-      padding-top: 20%;
-      font-size: 20px;
+      max-width:100%;
+      padding-top: 18%;
+      font-size: 125%;
       font-weight: 400;
-      line-height: 32px;
+      line-height: 160%;
       letter-spacing: 0em;
       align-items: center;
       text-align:center;
     }
     .Star1{
       display:block;
-      min-height: 800px;
-      max-width: 480px;
+      min-height: 95%;
       top: auto;
-      border-radius: 0px;
       position: absolute;
     }
     

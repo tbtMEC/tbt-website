@@ -2,12 +2,9 @@
   background-color: #47080C;
   color: #F6F7D1;
   height: 100vh;
-  width: auto;
-  left: 1px;
-  top: 0px;
-  border-radius: 0px;
-  padding-left: 50px;
-  padding-right: 50px;
+  width: auto;  
+  padding-left: 5%;
+  padding-right: 5%;
   overflow: hidden;
 
   .mic{
@@ -20,12 +17,12 @@
     justify-content: flex-start;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-right: 15px;
+    margin-right: 2%;
   }
   .box-1{
     max-height: fit-content;
     justify-content:flex-start;
-    margin-bottom: 25px;
+    margin-bottom: 5%;
   }
   .box-2{
     max-height:max-content;    
@@ -38,7 +35,7 @@
   
   #head_speak{
     font-family: Stoke;
-    font-size: 32px;
+    font-size: 195%;
     font-weight: 300;
     max-height: fit-content;
     letter-spacing: 0em;
@@ -48,50 +45,38 @@
   }
   #speak_cont{
     font-family: Poppins;
-    font-size: 30px;
+    font-size: 175%;
     font-weight: 400;
-    line-height: 50px;
+    line-height: 175%;
     letter-spacing: 0em;
     text-align: right;    
   }
   .girl{
-    left: 694px;
-    top: 224px;
-    border-radius: 71px;
-    margin-left: 15px;
-    margin-right: -24px;
-    max-height: 600px;
-    max-width: 650px;
+    margin-left: 1%;
+    margin-right: -2%;
+    max-height: 80%;
+    max-width: 45%;
   }
   
   .Stars1{
     height: 100vh;
     width: auto;
-    left: 56px;
+    left: 4%;
     top: auto;
-    border-radius: 0px;
-    position: absolute;  
+    position: absolute; 
     
   }
   .Stars2{
     height: 80vh;
     width: auto;
-    left: -66px;
+    left: -3%;
     top: auto;
     border-radius: 0px;
     position: absolute;  
-    background-size: 50% 50px;
+    background-size: 50% 8%;
     align-items: center;
-    padding-left: 20px;
+    padding-left: 1%;
 
-  }
-  .Stars3{
-    height: 40vh;
-    width: auto;
-    left: -56px;
-    top: auto;
-    border-radius: 0px;
-    position: absolute;  
   }
   .Star1{
     display: none;
