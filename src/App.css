@@ -11,6 +11,11 @@ html {
   box-sizing: border-box;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 .section {
   height: 80vh;
 }

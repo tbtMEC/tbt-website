@@ -10,7 +10,7 @@ const Footer = () => {
          <div className="footer-content">
 
            <div className="row">
-              <div className="column">
+             <div className="column">
 
                  <img src="OFFICIAL_LOGO1 1.png"
                    alt="Official Logo"
@@ -18,7 +18,7 @@ const Footer = () => {
 
                </div>
                <div className="column">
-                  <ul><li>
+               {/*}   <ul><li>
                     <a href="#i">Terms & Conditions</a></li><li>
                     <a href="#i">Privacy & Cookies</a></li><li>
                     <a href="#i">FAQs</a></li>
