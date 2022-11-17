@@ -3,21 +3,18 @@
   color: #F6F7D1;
   height: 100vh;
   width: auto;
-  left: 1px;
-  top: 0px;
   border-radius: 0px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 3%;
+  padding-right: 4%;
   overflow: hidden;
 
   #container{
     margin-top: -1%;
-    margin-left: 78px;
     flex-direction: column;
     justify-content: flex-start;
   }
   .box-1{
-    margin-bottom: 30px;
+    margin-bottom: 5%;
     justify-content: center;
   }
   .box-2{
@@ -32,7 +29,7 @@
 
   #write_head{
     font-family: Stoke;
-    font-size: 35px;
+    font-size: 202%;
     font-weight: 300;
     letter-spacing: 0em;
     text-align: left;
@@ -43,7 +40,7 @@
 
   #write_cont{
     font-family: Poppins;   
-    font-size: 30px;
+    font-size: 194%;
     font-weight: 400;
     line-height: 52px;
     letter-spacing: 0em;
