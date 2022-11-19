@@ -1,18 +1,21 @@
 const EventCard = ({ event }) => {
   const { title = "", imagePath, url = "", type = "" } = event;
-  console.log(title);
+
   return (
     <a
       href={url}
       target="_blank"
       rel="noreferrer"
-      style={{ textDecoration: "none" }}
+      // style={{ textDecoration: "none" }}
     >
       <div
         style={{
-          margin: "1 rem",
-          padding: 10,
           cursor: "pointer",
+          backgroundColor: "white",
+          paddingBottom: 20,
+          padding: 10,
+          margin: 20,
+          marginBottom: 70,
         }}
       >
         <img
@@ -23,7 +26,14 @@ const EventCard = ({ event }) => {
           }}
           alt={title}
         />
-        <h3>{title}</h3>
+        <h3
+          style={{
+            fontFamily: "Stoke",
+            color: "#53171b",
+          }}
+        >
+          {title}
+        </h3>
       </div>
     </a>
   );
