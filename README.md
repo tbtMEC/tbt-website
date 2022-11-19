@@ -15,7 +15,7 @@ Official website for the literary club of MEC - The Book Thieves
   - HTML CSS Support
   - Prettier - Code formatter
   - ES7+ React/Redux/React-Native snippets
-  - IntelliSense for CSS class names in HTML
+  - IntelliSense for CSS className names in HTML
 
 ## Instructions:
 
