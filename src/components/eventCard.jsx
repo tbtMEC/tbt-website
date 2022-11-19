@@ -13,7 +13,7 @@ const EventCard = ({ event }) => {
       href={url}
       target="_blank"
       rel="noreferrer"
-      style={{ textDecoration: "none" }}
+      // style={{ textDecoration: "none" }}
     >
       <div
         style={{
