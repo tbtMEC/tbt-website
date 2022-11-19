@@ -24,7 +24,7 @@ const responsiveSpecs = {
 };
 
 const Events = () => {
-  const isMobile = useMediaQuery("min-width: 768px)");
+  const isMobile = !useMediaQuery("(min-width: 960px)");
   return (
     <div
       className="section"
@@ -34,21 +34,20 @@ const Events = () => {
         padding: 10,
       }}
     >
-      <h1 className="head">Our Past Events</h1>
+      <h1 className="title">Our Past Events</h1>
       <Carousel
         swipeable={true}
         draggable={true}
         showDots={true}
         responsive={responsiveSpecs}
-        ssr={true} // means to render carousel on server-side.
         infinite={true}
         autoPlay={isMobile ? true : false}
-        autoPlaySpeed={1000}
+        autoPlaySpeed={2000}
         keyBoardControl={true}
         customTransition="all .5"
-        transitionDuration={500}
+        transitionDuration={900}
         containerClass="carousel-container"
-        removeArrowOnDeviceType={["tablet", "mobile"]}
+        // removeArrowOnDeviceType={["tablet", "mobile"]}
         dotListClass="custom-dot-list-style"
         itemClass="carousel-item-padding-40-px"
       >

@@ -1,11 +1,26 @@
 #events {
-  .head {
+  .title {
     font-family: Stoke;
-    width: 802px;
+
     font-weight: bold;
     font-size: 65px;
-    line-height: 81px;
     text-align: center;
     color: rgba(246, 247, 208, 0.83);
+    padding: 50px;
+  }
+
+  padding: 10px 50px 10px 50px;
+}
+
+@media only screen and (max-device-width: 640px) {
+  #events {
+    .title {
+      font-style: normal;
+      font-size: 32px;
+      line-height: 40px;
+      font-weight: bold;
+      color: rgba(246, 246, 208, 0.83);
+    }
+    padding: 10px;
   }
 }
