@@ -9,14 +9,10 @@
     margin: 0;
     box-sizing: border-box;
   }
-  body {
-    background: #53171b;
-    height: 0;
-  }
+  background: #53171b;
 
   /*for the border box*/
-  p.solid {
-    padding-block: 50px;
+  .solid {
     border-style: solid;
     margin: 20px;
     border-width: 0.5px;
@@ -175,7 +171,7 @@
       align-items: center;
       text-align: center;
     }
-    p.solid {
+    .solid {
       padding-block: 50px;
       border-style: solid;
       margin: 8px;
