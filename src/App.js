@@ -8,12 +8,12 @@ import ErrorPage from "./pages/error-page";
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/vision" element={<VisionPage />} />
         <Route path="*" element={<ErrorPage />} />
-      </Routes>
+      </Routes> */}
     </div>
   );
 }
