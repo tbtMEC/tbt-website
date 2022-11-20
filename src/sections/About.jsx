@@ -39,7 +39,7 @@ const About = () => {
         </div>
         <img
           className="gir_pho"
-          src="/assets/Vashti Harrison on Twitter 1.png"
+          src="/assets/childLookingAtFire.png"
           alt="Dreaming child"
         />
         <div id="about_cont" className="box-2-abo">
@@ -55,7 +55,7 @@ const About = () => {
       <div className="box-3-abo">
         <img
           className="girl"
-          src="/assets/Vashti Harrison on Twitter 1.png"
+          src="/assets/childLookingAtFire.png"
           alt="Dreaming child"
         />
       </div>
