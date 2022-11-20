@@ -11,10 +11,10 @@ html {
   box-sizing: border-box;
 }
 
-html,
+/* html,
 body {
   overflow-x: hidden;
-}
+} */
 
 .section {
   min-height: 80vh;
