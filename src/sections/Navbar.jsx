@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+
 import "../styles/navbar.scss";
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -26,25 +27,25 @@ export default function Navbar() {
       {(toggleMenu || screenWidth > 600) && (
         <ul className="list">
           <li className="items">
-            <a href="#about">About</a>
+            <HashLink to="/#about">About</HashLink>
           </li>
           <li className="items">
-            <a href="#readersForum">The Reader's Forum</a>
+            <HashLink to="/#readersForum">The Reader's Forum</HashLink>
           </li>
           <li className="items">
-            <a href="#writersForum">The Writer's Forum</a>
+            <HashLink to="/#writersForum">The Writer's Forum</HashLink>
           </li>
           <li className="items">
-            <a href="#speakersForum">The Speaker's Forum</a>
+            <HashLink to="/#speakersForum">The Speaker's Forum</HashLink>
           </li>
           <li className="items">
-            <a href="#events">Events</a>
+            <HashLink to="/#events">Events</HashLink>
           </li>
           <li className="items">
-            <a href="#team">Team</a>
+            <HashLink to="/#team">Team</HashLink>
           </li>
           <li className="items">
-            <Link to="/vision">vision</Link>
+            <HashLink to="/vision">Vision</HashLink>
           </li>
         </ul>
       )}
