@@ -1,5 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Stoke&display=swap");
-#team {
+#newTeam {
+  .flex {
+    display: flex;
+  }
+  .center {
+    justify-content: center;
+  }
+  .wrap {
+    flex-wrap: wrap;
+  }
+  .flexCenterRow {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
   background: #53090e;
   height: auto;
   background-position: center center;
