@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { HashLink } from "react-router-hash-link";
-
 import "../styles/navbar.scss";
+
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
   const toggleNav = () => {
-    setToggleMenu(!toggleMenu);
+    setToggleMenu((currState) => !currState);
   };
 
   useEffect(() => {
