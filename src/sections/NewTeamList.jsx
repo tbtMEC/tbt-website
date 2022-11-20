@@ -28,8 +28,8 @@ const TeamSection = () => {
       </div>
 
       <div className="flexCenterRow">
-        {otherMembers.map((member) => (
-          <TeamMemberCard member={member} />
+        {otherMembers.map((member, index) => (
+          <TeamMemberCard key={index} member={member} />
         ))}
       </div>
 
