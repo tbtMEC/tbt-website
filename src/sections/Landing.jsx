@@ -1,5 +1,5 @@
-import "../styles/landing.scss"; // css file for landing page
-// import BgImage from "/assets/bg.png";
+import "../styles/landing.scss";
+
 const Landing = () => {
   return (
     <div className="section" id="landing">

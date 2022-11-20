@@ -70,14 +70,18 @@
   }
   .border {
     background-color: transparent;
-    height: 25vw;
-    width: 25vw;
+    // height: 25vw;
+    // width: 25vw;
     outline: 4px solid rgba(246, 247, 208, 0.83);
     outline-offset: -1.5vw;
     margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   .border p {
-    font-size: 2vw;
+    font-size: 1.5rem;
     text-align: center;
     font-family: "Poppins";
     padding-top: 0.5vw;
@@ -98,13 +102,13 @@
       align-content: center;
     }
     .border {
-      height: 53vw;
-      width: 50vw;
-      outline-offset: -2.5vw;
+      // height: 53vw;
+      // width: 50vw;
+      // outline-offset: -2.5vw;
     }
 
     .border p {
-      font-size: 4vw;
+      font-size: 1rem;
     }
   }
 
