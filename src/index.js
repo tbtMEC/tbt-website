@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
+// import App from "./App";
 import "typeface-stoke";
 import "typeface-poppins";
+import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home";
 import VisionPage from "./pages/Vision";
@@ -23,8 +24,6 @@ const router = createBrowserRouter([
 
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router}>
-      <App />
-    </RouterProvider>
+    <RouterProvider router={router}>{/* <App /> */}</RouterProvider>
   </React.StrictMode>
 );
