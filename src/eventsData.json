@@ -3,24 +3,28 @@
     "title": "Busk at Dusk",
     "imagePath": "buskAtDusk.jpg",
     "url": "https://www.instagram.com/p/CkqWoWZAHnG/",
-    "type": "gathering"
+    "description": "An fun evnening session about busking",
+    "tags": ["gathering", "writing", "speaking", "music"]
   },
   {
-    "title": "Stolen Tales - talk series",
+    "title": "Stolen Tales",
     "imagePath": "stolenTales.jpg",
     "url": "https://www.instagram.com/p/CfiprtTPuki/",
-    "type": "talk"
+    "description": "A talk session with Juney Thomas",
+    "tags": ["speaking"]
   },
   {
     "title": "Prompted",
     "imagePath": "prompted.jpg",
     "url": "https://www.instagram.com/p/CKtjtGNJmgB/",
-    "type": "writing"
+    "description": "A writing series for budding writers",
+    "tags": ["writing"]
   },
   {
-    "title": "Hridhayapoorvam - Donation Drive",
+    "title": "Hridhayapoorvam asdfsdf dasf as",
     "imagePath": "hridhayapoorvam.jpg",
     "url": "https://www.instagram.com/p/CWM4UTTPjF2/",
-    "type": "event"
+    "description": "A book donation drive with Thanal",
+    "tags": ["event", "social cause"]
   }
 ]

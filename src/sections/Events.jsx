@@ -34,7 +34,7 @@ const Events = () => {
         padding: 10,
       }}
     >
-      <h1 className="title">Our Past Events</h1>
+      <h1 className="title">Our Major Initiatives</h1>
       <Carousel
         swipeable={true}
         draggable={true}
