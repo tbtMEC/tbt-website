@@ -2,6 +2,7 @@ import React from "react";
 import TeamMemberCard from "../components/teamMemberCard";
 import teamMembers21 from "../teamMembers21.json";
 import "../styles/newTeam.scss";
+import { Link } from "react-router-dom";
 
 const TeamSection = () => {
   const [
@@ -33,9 +34,9 @@ const TeamSection = () => {
       </div>
 
       <div className="scroll">
-        <a href="#team">
+        <Link to="/vision">
           <img src="assets\scroll.png" alt="^" />
-        </a>
+        </Link>
       </div>
     </div>
   );

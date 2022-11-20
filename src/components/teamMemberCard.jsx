@@ -6,14 +6,15 @@ const TeamMemberCard = ({ member }) => {
       <div
         className="column"
         style={{
-          marginBottom: 30,
+          margin: 10,
         }}
       >
         <div className="border">
           <img
             src={`/teamMembers21Images/${imagePath}`}
             alt={designation}
-            style={{ width: "100%", height: "100%" }}
+            // style={{ width: "100%", height: "100%" }}
+            style={{ width: "24vw", height: "24vw" }}
           />
           <p style={{ fontWeight: "bold" }}>{name}</p>
           <p>{designation}</p>
