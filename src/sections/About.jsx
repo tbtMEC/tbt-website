@@ -35,7 +35,7 @@ const About = () => {
 
       <div className="container">
         <div id="head_about" className="box-1-abo">
-          <h1>About Us</h1>
+          <h1>About TBT</h1>
         </div>
         <img
           className="gir_pho"
