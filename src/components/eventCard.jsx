@@ -1,12 +1,19 @@
+import "./eventCard.scss";
 const EventCard = ({ event }) => {
-  const { title = "", imagePath, url = "", type = "" } = event;
+  const {
+    title = "",
+    imagePath,
+    url = "",
+    description = "",
+    tags = [],
+  } = event;
 
   return (
     <a
       href={url}
       target="_blank"
       rel="noreferrer"
-      // style={{ textDecoration: "none" }}
+      style={{ textDecoration: "none" }}
     >
       <div
         style={{
@@ -23,17 +30,27 @@ const EventCard = ({ event }) => {
           style={{
             width: "100%",
             height: "100%",
+            borderRadius: 15,
           }}
           alt={title}
         />
-        <h3
-          style={{
-            fontFamily: "Stoke",
-            color: "#53171b",
-          }}
-        >
-          {title}
-        </h3>
+        <div className="flex space-between">
+          <h3
+            style={{
+              fontFamily: "Stoke",
+              color: "#53171b",
+            }}
+          >
+            {title}
+          </h3>
+          <div className="viewPostBtn" style={{}}>
+            View Post
+          </div>
+        </div>
+        <span style={{ opacity: 0.7 }}>
+          {tags.length ? "#" + tags.join(", #") : ""}
+        </span>
+        <p>{description}</p>
       </div>
     </a>
   );

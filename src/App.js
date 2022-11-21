@@ -1,27 +1,20 @@
-import "./App.css";
-import About from "./sections/About";
-import Events from "./sections/Events";
-import Footer from "./sections/Footer";
-import Navbar from "./sections/Navbar";
-import Landing from "./sections/Landing";
-import SpeakersForum from "./sections/SpeakersForum";
-import Team from "./sections/Team";
-import WritersForum from "./sections/WritersForum";
-import ReadersForum from "./sections/ReadersForum";
-function App() {
-  return (
-    <div className="App">
-      <Landing />
-      <Navbar />
-      <About />
-      <ReadersForum />
-      <WritersForum />
-      <SpeakersForum />
-      <Events />
-      <Team />
-      <Footer />
-    </div>
-  );
-}
+// import Navbar from "./sections/Navbar";
+// import { Route, Routes } from "react-router-dom";
+// import VisionPage from "./pages/Vision";
+// import Home from "./pages/Home";
+// import ErrorPage from "./pages/error-page";
 
-export default App;
+// function App() {
+//   return (
+//     <div className="App">
+//       {/* <Navbar />
+//       <Routes>
+//         <Route path="/" element={<Home />} />
+//         <Route path="/vision" element={<VisionPage />} />
+//         <Route path="*" element={<ErrorPage />} />
+//       </Routes> */}
+//     </div>
+//   );
+// }
+
+// export default App;

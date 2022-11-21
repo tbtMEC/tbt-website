@@ -1,4 +1,5 @@
 import React from "react";
+// import TeamMemberCard from "../components/teamMemberCard";
 import "../styles/team.scss";
 
 const Team = () => {

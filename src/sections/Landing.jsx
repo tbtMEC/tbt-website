@@ -1,5 +1,5 @@
-import "../styles/landing.scss"; // css file for landing page
-// import BgImage from "/assets/bg.png";
+import "../styles/landing.scss";
+
 const Landing = () => {
   return (
     <div className="section" id="landing">
@@ -18,7 +18,7 @@ const Landing = () => {
       <div style={{ textAlign: "center" }} className="text-content">
         <h1>Welcome to TBT</h1>
 
-        <p> For flippers, scribblers and tripsters </p>
+        <p> For flippers, scribblers and speakers </p>
         <button className="join-btn">
           <a href="https://discord.gg/eQ7GcZcPw5">Join Us</a>
         </button>

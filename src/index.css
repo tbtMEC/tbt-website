@@ -11,11 +11,19 @@ html {
   box-sizing: border-box;
 }
 
-html,
-body {
-  overflow-x: hidden;
-}
-
 .section {
   min-height: 80vh;
+}
+
+.flex {
+  display: flex;
+}
+.space-between {
+  justify-content: space-between;
+}
+.center {
+  justify-content: center;
+}
+.wrap {
+  flex-wrap: wrap;
 }
