@@ -1,8 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Stoke&display=swap");
 #vision {
   .wrapper p {
-    font-family: Stoke;
-    // font-size: 202%;
+    font-family: "Poppins",sans-serif;
+    font-size: 1.3rem;
     letter-spacing: 0em;
     color: #dcd1b2;
+    
   }
+  .wrapper h1 {
+    font-size: 3rem;
+    font-family: 'stoke', serif;
+    padding-bottom: .75%;
+  }
+
 }
