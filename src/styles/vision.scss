@@ -1,8 +1,68 @@
 #vision {
+  
+  background-color: #631014;
   .wrapper p {
-    font-family: Stoke;
-    // font-size: 202%;
+    font-family: "Poppins",sans-serif;
+    font-size: 1.3rem;
     letter-spacing: 0em;
     color: #dcd1b2;
+    padding: 0% 10%;
+    text-align: center;
+    
   }
+  .wrapper h1 {
+    font-size: 3rem;
+    font-family: 'stoke', serif;
+    padding-bottom: .85%;
+    text-align: center;
+  }
+
+  p.bigText {
+    font-size: 2rem;
+  }
+
+  .visionSection {
+    background-color: #3a050942;
+    border-radius: 20px;
+    padding: 7% 0%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: contain;
+    background-image: url("https://the-book-thieves.netlify.app/assets/Stars.png");
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    animation: 2s ease-out 0s 1 FadeIn;
+    @keyframes FadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        } 
+      }
+  }
+
+  .missionSection {
+    background-color: #3a050942;
+    border-radius: 20px;
+    padding: 7% 0%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: contain;
+    background-image: url("https://the-book-thieves.netlify.app/assets/Stars.png");
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    animation: 2s ease-out 0s 1 FadeIn;
+    @keyframes FadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+} 
+  }
+
+  p.mainText {
+    padding-top: 5%;
+  }
+
 }
