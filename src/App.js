@@ -25,10 +25,12 @@ const App = () => {
   };
 
   return (
-    <div className="App" onTouchStart={playSong}>
-      <audio src={MagicInTheAir} loop autoPlay ref={audioRef} />
-      <RouterProvider router={router} />
-    </div>
+    <>
+      <audio src={MagicInTheAir} loop autoPlay controls ref={audioRef} />
+      <div className="App" onClick={playSong}>
+        <RouterProvider router={router} />
+      </div>
+    </>
   );
 };
 
