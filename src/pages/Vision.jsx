@@ -1,8 +1,6 @@
 import Navbar from "../sections/Navbar";
 import TeamSection from "../sections/NewTeamList";
 import "../styles/vision.scss";
-import IntroVid from "../introVid.webm";
-import videoPosterImg from "../videoPosterImg.jpg";
 
 const VisionPage = () => {
   return (
@@ -35,15 +33,13 @@ const VisionPage = () => {
           </p>
         </section>
         <div className="flex center" id="videoWrapper">
-          <video
-            src={IntroVid}
-            controls
-            width="70%"
-            preload="auto"
-            poster={videoPosterImg}
-            autoPlay
-            loop
-          />
+          <iframe
+            src="https://www.youtube.com/embed/mA_JNAr_KDw"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen="true"
+          ></iframe>
         </div>
 
         <section
