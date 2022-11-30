@@ -6,7 +6,6 @@ const VisionPage = () => {
   return (
     <div
       style={{
-        /* backgroundColor: "#53171b", */
         minHeight: "100vh",
         color: "#DCD1B2",
       }}
@@ -26,7 +25,6 @@ const VisionPage = () => {
           }}
           className="visionSection"
         >
-      
           <h1>Vision</h1>
           <p className="bigText">
             Our vision is to foster a lifelong appreciation of books and
@@ -34,6 +32,15 @@ const VisionPage = () => {
             varying interests and unique thoughts.
           </p>
         </section>
+        <div className="flex center" id="videoWrapper">
+          <iframe
+            src="https://www.youtube.com/embed/mA_JNAr_KDw"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen="true"
+          ></iframe>
+        </div>
 
         <section
           style={{
@@ -73,7 +80,7 @@ const VisionPage = () => {
           instead for all people of unique and varying interests.{" "}
         </p>
         <br />
-        <p className="bigText mainText" >
+        <p className="bigText mainText">
           We present to you the first core team of TBT who made this dream of
           many into a reality!
         </p>
