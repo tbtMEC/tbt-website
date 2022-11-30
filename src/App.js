@@ -1,20 +1,37 @@
-// import Navbar from "./sections/Navbar";
-// import { Route, Routes } from "react-router-dom";
-// import VisionPage from "./pages/Vision";
-// import Home from "./pages/Home";
-// import ErrorPage from "./pages/error-page";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Home from "./pages/Home";
+import VisionPage from "./pages/Vision";
+import ErrorPage from "./pages/error-page";
+import MagicInTheAir from "./magicInTheAir.mp3";
+import { useRef } from "react";
 
-// function App() {
-//   return (
-//     <div className="App">
-//       {/* <Navbar />
-//       <Routes>
-//         <Route path="/" element={<Home />} />
-//         <Route path="/vision" element={<VisionPage />} />
-//         <Route path="*" element={<ErrorPage />} />
-//       </Routes> */}
-//     </div>
-//   );
-// }
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "vision",
+    element: <VisionPage />,
+  },
+]);
 
-// export default App;
+const App = () => {
+  const audioRef = useRef(null);
+
+  const playSong = () => {
+    audioRef.current?.play();
+  };
+
+  return (
+    <>
+      <audio src={MagicInTheAir} loop autoPlay controls ref={audioRef} />
+      <div className="App" onClick={playSong}>
+        <RouterProvider router={router} />
+      </div>
+    </>
+  );
+};
+
+export default App;
