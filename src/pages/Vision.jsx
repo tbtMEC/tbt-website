@@ -36,9 +36,9 @@ const VisionPage = () => {
           <iframe
             src="https://www.youtube.com/embed/mA_JNAr_KDw"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen="true"
+            allowFullScreen
           ></iframe>
         </div>
 
