@@ -1,30 +1,37 @@
 [
   {
-    "title": "Busk at Dusk",
-    "imagePath": "buskAtDusk.jpg",
-    "url": "https://www.instagram.com/p/CkqWoWZAHnG/",
-    "description": "An fun evnening session about busking",
-    "tags": ["gathering", "writing", "speaking", "music"]
+    "title": "Write With A Mate",
+    "imagePath": "writeWithAMate.jpg",
+    "url": "https://www.instagram.com/p/ClbXda2P5wB/",
+    "description": "Join forces with your writing partner and unleash your creativity at our dynamic duo writing event - winners take home prizes!",
+    "tags": ["writing", "team", "fun"]
   },
   {
     "title": "Stolen Tales",
     "imagePath": "stolenTales.jpg",
     "url": "https://www.instagram.com/p/CfiprtTPuki/",
-    "description": "A talk session with Juney Thomas",
+    "description": "Uncover the secrets of ghostwriting with Juney Thomas - the ghostwriter behind the stars!",
     "tags": ["speaking"]
+  },
+  {
+    "title": "Busk at Dusk",
+    "imagePath": "buskAtDusk.jpg",
+    "url": "https://www.instagram.com/p/CkqWoWZAHnG/",
+    "description": "Join the Busking Masters for an unforgettable evening of music, tricks, and tips - learn everything you need to know about busking like a pro!",
+    "tags": ["gathering", "writing", "speaking", "music"]
   },
   {
     "title": "Prompted",
     "imagePath": "prompted.jpg",
     "url": "https://www.instagram.com/p/CKtjtGNJmgB/",
-    "description": "A writing series for budding writers",
+    "description": "Budding writers, take flight! Join our writing competition and let your words soar to new heights for a chance at fame and fortune!",
     "tags": ["writing"]
   },
   {
-    "title": "Hridhayapoorvam asdfsdf dasf as",
+    "title": "Hridhayapoorvam",
     "imagePath": "hridhayapoorvam.jpg",
     "url": "https://www.instagram.com/p/CWM4UTTPjF2/",
-    "description": "A book donation drive with Thanal",
-    "tags": ["event", "social cause"]
+    "description": "Donate your books and make a difference - join our book donation drive and help spread the love of reading!",
+    "tags": ["event", "social cause", "thanal"]
   }
 ]

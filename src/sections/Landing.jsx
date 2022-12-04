@@ -1,17 +1,10 @@
 import "../styles/landing.scss";
 
+// todo: Add stars in this section
 const Landing = () => {
   return (
     <div className="section" id="landing">
-      <img
-        src="/assets/bg.png"
-        alt="Thick Forest as background"
-        width="100%"
-        height="auto"
-        className="bgImg"
-      />
-
-      <div style={{ textAlign: "center" }} className="text-content">
+      <div style={{ textAlign: "center" }} id="text-content">
         <h1>Welcome to TBT</h1>
 
         <p> For flippers, scribblers and speakers </p>

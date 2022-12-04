@@ -24,7 +24,9 @@ export default function Navbar({ sidebarActive, setSidebarActive }) {
   return (
     <nav>
       <div className="logo-wrapper">
-        <img src="/assets/OFFICIAL_LOGO1 1 (1).png" alt="logo" />
+        <HashLink to="/">
+          <img src="tbtLogo.png" alt="tbt logo" />
+        </HashLink>
       </div>
       {(sidebarActive || screenWidth > 600) && (
         <ul className="list">

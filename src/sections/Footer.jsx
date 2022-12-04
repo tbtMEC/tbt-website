@@ -9,8 +9,8 @@ const Footer = () => {
             <div className="row">
               <div className="column">
                 <img
-                  src="OFFICIAL_LOGO1 1.png"
-                  alt="Official Logo"
+                  src="tbtLogo.png"
+                  alt="TBT Logo"
                   style={{
                     height: "132px",
                     paddingRight: "10px",

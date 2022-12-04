@@ -1,20 +1,18 @@
 #landing {
-  // background-image: ;
+  background: center no-repeat url("../../public/assets/bg.png");
+  background-size: 100% auto;
+  min-height: 90vh;
 
   // overflow-y: hidden;
   // height: 100vh;
+  #text-content {
+    position: relative;
+    top: 45vh;
+  }
 
   .logo-wrapper {
     display: flex;
     justify-content: center;
-  }
-
-  .bgImg {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: -1;
-    height: 100vh;
   }
 
   h1 {
@@ -22,7 +20,7 @@
     font-size: 90px;
     color: #f6f7d1;
     text-align: center;
-    margin-top: 45vh;
+    // margin-top: 45vh;
   }
   p {
     font-family: Stoke;
@@ -55,11 +53,7 @@
   }
 
   @media screen and (max-width: 600px) {
-    .bgImg {
-      object-fit: none;
-      object-position: 50% 0;
-    }
-
+    background-size: auto 100%;
     h1 {
       font-size: 40px;
       text-align: center;

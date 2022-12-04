@@ -36,7 +36,7 @@ const App = () => {
   return (
     <>
       <audio src={MagicInTheAir} loop autoPlay ref={audioRef} />
-      <div className="App" onClick={playSong}>
+      <div className="" onClick={playSong}>
         <BrowserRouter>
           <Navbar
             sidebarActive={sidebarActive}
