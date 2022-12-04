@@ -1,4 +1,3 @@
-import Navbar from "../sections/Navbar";
 import TeamSection from "../sections/NewTeamList";
 import "../styles/vision.scss";
 

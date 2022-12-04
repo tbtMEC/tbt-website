@@ -1,9 +1,4 @@
-import {
-  BrowserRouter,
-  createBrowserRouter,
-  RouterProvider,
-  Routes,
-} from "react-router-dom";
+import { BrowserRouter, createBrowserRouter, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import VisionPage from "./pages/Vision";
 import ErrorPage from "./pages/error-page";
@@ -12,18 +7,7 @@ import { useRef } from "react";
 import { Route } from "react-router-dom";
 import Navbar from "./sections/Navbar";
 import { useState } from "react";
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "vision",
-    element: <VisionPage />,
-  },
-]);
+import FourNotFour from "./pages/FourNotFour";
 
 const App = () => {
   const audioRef = useRef(null);
@@ -48,6 +32,7 @@ const App = () => {
               path="/vision"
               element={sidebarActive ? null : <VisionPage />}
             />
+            <Route path="*" element={sidebarActive ? null : <FourNotFour />} />
           </Routes>
         </BrowserRouter>
       </div>
