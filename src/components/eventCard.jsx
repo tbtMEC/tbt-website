@@ -1,4 +1,5 @@
 import "./eventCard.scss";
+
 const EventCard = ({ event }) => {
   const {
     title = "",
@@ -23,6 +24,7 @@ const EventCard = ({ event }) => {
           padding: 10,
           margin: 20,
           marginBottom: 70,
+          flex: 1,
         }}
       >
         <img

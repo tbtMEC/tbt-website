@@ -1,4 +1,3 @@
-import Navbar from "../sections/Navbar";
 import TeamSection from "../sections/NewTeamList";
 import "../styles/vision.scss";
 
@@ -18,7 +17,7 @@ const VisionPage = () => {
           paddingTop: 200,
         }}
       >
-        <Navbar />
+        {/* <Navbar /> */}
         <section
           style={{
             marginBottom: 30,

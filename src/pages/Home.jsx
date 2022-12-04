@@ -6,12 +6,10 @@ import SpeakersForum from "../sections/SpeakersForum";
 import Team from "../sections/Team";
 import WritersForum from "../sections/WritersForum";
 import ReadersForum from "../sections/ReadersForum";
-import Navbar from "../sections/Navbar";
 
 const Home = () => {
   return (
-    <div>
-      <Navbar />
+    <>
       <Landing />
       <About />
       <ReadersForum />
@@ -20,7 +18,7 @@ const Home = () => {
       <Events />
       <Team />
       <Footer />
-    </div>
+    </>
   );
 };
 

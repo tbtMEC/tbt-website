@@ -2,12 +2,11 @@ import React, { useState, useEffect } from "react";
 import { HashLink } from "react-router-hash-link";
 import "../styles/navbar.scss";
 
-export default function Navbar() {
-  const [toggleMenu, setToggleMenu] = useState(false);
+export default function Navbar({ sidebarActive, setSidebarActive }) {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
   const toggleNav = () => {
-    setToggleMenu((currState) => !currState);
+    setSidebarActive((currState) => !currState);
   };
 
   useEffect(() => {
@@ -24,28 +23,56 @@ export default function Navbar() {
 
   return (
     <nav>
-      {(toggleMenu || screenWidth > 600) && (
+      <div className="logo-wrapper">
+        <HashLink to="/">
+          <img src="tbtLogo.png" alt="tbt logo" />
+        </HashLink>
+      </div>
+      {(sidebarActive || screenWidth > 600) && (
         <ul className="list">
           <li className="items">
-            <HashLink to="/#about">About</HashLink>
+            <HashLink onClick={() => setSidebarActive(false)} to="/#about">
+              About
+            </HashLink>
           </li>
           <li className="items">
-            <HashLink to="/#readersForum">The Reader's Forum</HashLink>
+            <HashLink
+              onClick={() => setSidebarActive(false)}
+              to="/#readersForum"
+            >
+              The Reader's Forum
+            </HashLink>
           </li>
           <li className="items">
-            <HashLink to="/#writersForum">The Writer's Forum</HashLink>
+            <HashLink
+              onClick={() => setSidebarActive(false)}
+              to="/#writersForum"
+            >
+              The Writer's Forum
+            </HashLink>
           </li>
           <li className="items">
-            <HashLink to="/#speakersForum">The Speaker's Forum</HashLink>
+            <HashLink
+              onClick={() => setSidebarActive(false)}
+              to="/#speakersForum"
+            >
+              The Speaker's Forum
+            </HashLink>
           </li>
           <li className="items">
-            <HashLink to="/#events">Events</HashLink>
+            <HashLink onClick={() => setSidebarActive(false)} to="/#events">
+              Events
+            </HashLink>
           </li>
           <li className="items">
-            <HashLink to="/#team">Team</HashLink>
+            <HashLink onClick={() => setSidebarActive(false)} to="/#team">
+              Team
+            </HashLink>
           </li>
           <li className="items">
-            <HashLink to="/vision">Vision</HashLink>
+            <HashLink onClick={() => setSidebarActive(false)} to="/vision">
+              Vision
+            </HashLink>
           </li>
         </ul>
       )}
