@@ -9,7 +9,13 @@ const Landing = () => {
 
         <p> For flippers, scribblers and speakers </p>
         <button className="join-btn">
-          <a href="https://discord.gg/eQ7GcZcPw5">Join Us</a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://discord.gg/eQ7GcZcPw5"
+          >
+            Join Us
+          </a>
         </button>
       </div>
     </div>

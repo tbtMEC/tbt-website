@@ -64,7 +64,7 @@ export default function Navbar({ sidebarActive, setSidebarActive }) {
               Events
             </HashLink>
           </li>
-          <li className="items" style={{ backgroundColor: "green" }}>
+          <li className="items">
             <HashLink onClick={() => setSidebarActive(false)} to="/#team">
               Team
             </HashLink>
