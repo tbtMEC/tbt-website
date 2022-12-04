@@ -3,10 +3,6 @@ import "../styles/landing.scss";
 const Landing = () => {
   return (
     <div className="section" id="landing">
-      <div className="logo-wrapper">
-        <img src="/assets/OFFICIAL_LOGO1 1 (1).png" alt="logo" />
-      </div>
-
       <img
         src="/assets/bg.png"
         alt="Thick Forest as background"

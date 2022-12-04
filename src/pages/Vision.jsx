@@ -18,7 +18,7 @@ const VisionPage = () => {
           paddingTop: 200,
         }}
       >
-        <Navbar />
+        {/* <Navbar /> */}
         <section
           style={{
             marginBottom: 30,

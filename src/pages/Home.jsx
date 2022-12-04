@@ -9,9 +9,10 @@ import ReadersForum from "../sections/ReadersForum";
 import Navbar from "../sections/Navbar";
 
 const Home = () => {
+  console.log("inside home");
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Landing />
       <About />
       <ReadersForum />
