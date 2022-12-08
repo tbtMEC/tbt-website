@@ -1,0 +1,4 @@
+- show stars
+- make about section responsive in all sections
+- better borders for vision page
+- show an absolutely positioned speaker toggle icon at bottom 50px from left corner
