@@ -1,14 +1,13 @@
 #footer {
-  // add styles inside this
   html {
     scroll-behavior: smooth;
   }
 
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  .icon {
+    font-size: xx-large;
+    margin-right: 4px;
   }
+
   background: #53171b;
 
   /*for the border box*/

@@ -23,11 +23,14 @@ export default function Navbar({ sidebarActive, setSidebarActive }) {
 
   return (
     <nav>
-      <div className="logo-wrapper">
-        <HashLink to="/">
-          <img src="tbtLogo.png" alt="tbt logo" />
-        </HashLink>
-      </div>
+      {!sidebarActive ? (
+        <div className="logo-wrapper">
+          <HashLink to="/">
+            <img src="tbtLogo.png" alt="tbt logo" />
+          </HashLink>
+        </div>
+      ) : null}
+
       {(sidebarActive || screenWidth > 600) && (
         <ul className="list">
           <li className="items">
