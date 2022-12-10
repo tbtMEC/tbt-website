@@ -1,6 +1,6 @@
 #about {
   background-color: #300b0b;
-  color: #F6F7D1;
+  color: #f6f7d1;
   height: 100vh;
   width: auto;
   border-radius: 0px;
@@ -8,21 +8,21 @@
   padding-right: 6%;
   overflow: hidden;
 
-  .container{
+  .container {
     max-height: 100vh;
     justify-content: flex-start;
     flex-direction: column;
     flex-wrap: wrap;
     margin-right: 1%;
   }
-  .box-1-abo{
-     justify-content: flex-start;
-     margin-bottom: 15px;
+  .box-1-abo {
+    justify-content: flex-start;
+    margin-bottom: 15px;
   }
-  .box-2-abo{
+  .box-2-abo {
     justify-content: flex-start;
   }
-  .box-3-abo{
+  .box-3-abo {
     justify-content: flex-start;
     align-items: center;
     max-block-size: 50%;
@@ -30,7 +30,7 @@
     max-width: 50%;
   }
 
-  #head_about{
+  #head_about {
     font-family: Stoke;
     font-size: 257%;
     font-weight: 300;
@@ -40,63 +40,63 @@
     margin-right: auto;
   }
 
-  #about_cont{
+  #about_cont {
     font-family: Poppins;
     font-size: 187%;
     font-weight: 400;
     line-height: 166%;
     letter-spacing: 0em;
     text-align: right;
-    max-height: fit-content;    
+    max-height: fit-content;
   }
-    
-  .girl{    
-    margin-left: 4%;    
+
+  .girl {
+    margin-left: 4%;
+    max-width: 45vw;
+    height: auto;
   }
-  
-  .Stars1{
+
+  .Stars1 {
     height: 100vh;
     width: auto;
     left: 4%;
     top: auto;
     position: absolute;
   }
-  .Stars2{
+  .Stars2 {
     height: 80vh;
     width: auto;
     left: -3%;
     top: auto;
     border-radius: 0px;
-    position: absolute;  
+    position: absolute;
     background-size: 50% 8%;
     align-items: center;
     padding-left: 1%;
-
   }
-  .gir_pho{
+  .gir_pho {
     display: none;
   }
-  .Star1{
-    display:none;
+  .Star1 {
+    display: none;
   }
-  .Star2{
-    display:none;
+  .Star2 {
+    display: none;
   }
 }
 
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (max-device-width: 1020px) {
   #about {
     flex-wrap: wrap;
     min-height: 100%;
     width: auto;
-    display:flex;    
-    left:0%;    
+    display: flex;
+    left: 0%;
     flex-direction: column;
-    align-items: center;   
+    align-items: center;
     padding-top: -50%;
 
-    #head_about{
+    #head_about {
       min-height: 5%;
       min-width: auto;
       font-size: 125%;
@@ -104,14 +104,14 @@
       line-height: 8%;
       letter-spacing: 0em;
       margin-left: 0%;
-      margin-right: 0%; 
+      margin-right: 0%;
       padding-top: 0%;
       margin-bottom: 0%;
-      text-align: center;   
+      text-align: center;
     }
-    .gir_pho{
+    .gir_pho {
       display: block;
-      height: 32%;
+      height: auto;
       width: 60%;
       border-radius: 0%;
       margin-top: 6%;
@@ -120,33 +120,31 @@
       margin-left: 18%;
     }
 
-    #about_cont{
-      max-width:100%;
+    #about_cont {
+      max-width: 100%;
       padding-top: 18%;
       font-size: 125%;
       font-weight: 400;
       line-height: 160%;
       letter-spacing: 0em;
       align-items: center;
-      text-align:center;
+      text-align: center;
     }
-    .Star1{
-      display:block;
+    .Star1 {
+      display: block;
       min-height: 95%;
       top: auto;
       position: absolute;
     }
-    
-    .girl{
-      display:none;
-    }
-    .Stars1{
-      display:none;
-    }
-    .Stars2{
+
+    .girl {
       display: none;
     }
-    
-
+    .Stars1 {
+      display: none;
+    }
+    .Stars2 {
+      display: none;
+    }
   }
 }
