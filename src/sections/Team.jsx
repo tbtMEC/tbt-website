@@ -1,6 +1,7 @@
 import React from "react";
 // import TeamMemberCard from "../components/teamMemberCard";
 import "../styles/team.scss";
+import ScrollToTop from "../components/scroll";
 
 const Team = () => {
   return (
@@ -102,12 +103,7 @@ const Team = () => {
           </div>
         </div>
       </div>
-
-      <div className="scroll">
-        <a href="#landing">
-          <img src="assets\scroll.png" alt="^" />
-        </a>
-      </div>
+      <ScrollToTop />
     </div>
   );
 };
