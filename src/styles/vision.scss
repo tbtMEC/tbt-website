@@ -36,7 +36,7 @@
   }
 
   p.bigText {
-    font-size: 2rem;
+    font-size: 2vw;
   }
 
   .visionSection {
@@ -86,10 +86,16 @@
   p.mainText {
     padding-top: 5%;
   }
-}
 
-@media (max-width: 800px) {
-  #videoWrapper {
-    margin: 10% 0;
+  @media (max-width: 800px) {
+    #videoWrapper {
+      margin: 10% 0;
+    }
+    .wrapper p {
+      font-size: medium;
+    }
+    .wrapper h1 {
+      font-size: 6vw;
+    }
   }
 }
