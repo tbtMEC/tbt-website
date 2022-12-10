@@ -3,9 +3,11 @@
     // border: 5px solid #dcd1b2;
     margin: 9vh 9vw;
     overflow: hidden;
-    padding-top: 56.25%; /* 16:9 */
+    padding-top: 56.25%;
+    /* 16:9 */
     position: relative;
   }
+
   iframe {
     position: absolute;
     top: 0;
@@ -16,6 +18,7 @@
   }
 
   background-color: #631014;
+
   .wrapper p {
     font-family: "Poppins", sans-serif;
     font-size: 1.3rem;
@@ -24,6 +27,7 @@
     padding: 0% 10%;
     text-align: center;
   }
+
   .wrapper h1 {
     font-size: 3rem;
     font-family: "stoke", serif;
@@ -45,10 +49,12 @@
     background-image: url("https://the-book-thieves.netlify.app/assets/Stars.png");
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
     animation: 2s ease-out 0s 1 FadeIn;
+
     @keyframes FadeIn {
       0% {
         opacity: 0;
       }
+
       100% {
         opacity: 1;
       }
@@ -65,10 +71,12 @@
     background-image: url("https://the-book-thieves.netlify.app/assets/Stars.png");
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
     animation: 2s ease-out 0s 1 FadeIn;
+
     @keyframes FadeIn {
       0% {
         opacity: 0;
       }
+
       100% {
         opacity: 1;
       }
