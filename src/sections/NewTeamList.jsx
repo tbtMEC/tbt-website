@@ -2,7 +2,7 @@ import React from "react";
 import TeamMemberCard from "../components/teamMemberCard";
 import teamMembers21 from "../teamMembers21.json";
 import "../styles/newTeam.scss";
-import { Link } from "react-router-dom";
+import ScrollToTop from "../components/scroll";
 
 const TeamSection = () => {
   const [
@@ -32,12 +32,7 @@ const TeamSection = () => {
           <TeamMemberCard key={index} member={member} />
         ))}
       </div>
-
-      <div className="scroll">
-        <Link to="/vision">
-          <img src="assets\scroll.png" alt="^" />
-        </Link>
-      </div>
+      <ScrollToTop />
     </div>
   );
 };
