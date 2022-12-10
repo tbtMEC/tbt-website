@@ -1,6 +1,6 @@
 import TeamSection from "../sections/NewTeamList";
 import "../styles/vision.scss";
-
+ import Footer from "../sections/Footer"
 const VisionPage = () => {
   return (
     <div
@@ -87,8 +87,10 @@ const VisionPage = () => {
         <br />
         <br />
 
-        <TeamSection />
+        
       </div>
+      <TeamSection />
+      <Footer /> 
     </div>
   );
 };

@@ -32,7 +32,7 @@ const TeamSection = () => {
           <TeamMemberCard key={index} member={member} />
         ))}
       </div>
-      <ScrollToTop path={"/Vision"}/>
+      <ScrollToTop />
     </div>
   );
 };
