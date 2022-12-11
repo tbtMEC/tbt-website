@@ -16,17 +16,7 @@ const EventCard = ({ event }) => {
       rel="noreferrer"
       style={{ textDecoration: "none" }}
     >
-      <div
-        style={{
-          cursor: "pointer",
-          backgroundColor: "white",
-          paddingBottom: 20,
-          padding: 10,
-          margin: 20,
-          marginBottom: 70,
-          flex: 1,
-        }}
-      >
+      <div id="card">
         <img
           src={`eventImages/${imagePath}`}
           style={{
@@ -41,18 +31,47 @@ const EventCard = ({ event }) => {
             style={{
               fontFamily: "Stoke",
               color: "#53171b",
+              textOverflow: "ellipsis",
+              width: "20vw",
+              overflow: "hidden",
+              whiteSpace: "nowrap",
             }}
           >
             {title}
           </h3>
-          <div className="viewPostBtn" style={{}}>
-            View Post
-          </div>
+          <div className="viewPostBtn">View Post</div>
         </div>
-        <span style={{ opacity: 0.7 }}>
+        <span
+          className="tag"
+          style={{
+            opacity: 0.7,
+            textOverflow: "ellipsis",
+            textAlign: "left",
+            overflow: "hidden",
+            width: "100%",
+            whiteSpace: "nowrap",
+            fontFamily:"sans-serif",
+            justifyContent:"space-between",
+            display:"flex",
+          }}
+        >
           {tags.length ? "#" + tags.join(", #") : ""}
         </span>
-        <p>{description}</p>
+        <p
+          style={{
+            fontFamily: "Poppins",
+            color: "#53171b",
+            textAlign: "left",
+            paddingTop: "2%",
+            textOverflow: "ellipsis",
+            overflow: "hidden",
+            height: "20%",
+            whiteSpace: "nowrap"
+          }}
+          className="desc"
+        >
+          {description}
+        </p>
       </div>
     </a>
   );
