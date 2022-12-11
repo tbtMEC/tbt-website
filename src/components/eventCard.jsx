@@ -26,15 +26,16 @@ const EventCard = ({ event }) => {
           }}
           alt={title}
         />
-        <div className="flex space-between">
+        <div 
+            className="cardTitle flex space-between">
           <h3
             style={{
               fontFamily: "Stoke",
               color: "#53171b",
               textOverflow: "ellipsis",
-              width: "20vw",
+              width: "fit-content",
               overflow: "hidden",
-              whiteSpace: "nowrap",
+              whiteSpace: "nowrap"
             }}
           >
             {title}
@@ -50,9 +51,9 @@ const EventCard = ({ event }) => {
             overflow: "hidden",
             width: "100%",
             whiteSpace: "nowrap",
-            fontFamily:"sans-serif",
-            justifyContent:"space-between",
-            display:"flex",
+            fontFamily: "sans-serif",
+            justifyContent: "space-between",
+            display: "flex",
           }}
         >
           {tags.length ? "#" + tags.join(", #") : ""}
@@ -61,12 +62,7 @@ const EventCard = ({ event }) => {
           style={{
             fontFamily: "Poppins",
             color: "#53171b",
-            textAlign: "left",
-            paddingTop: "2%",
-            textOverflow: "ellipsis",
-            overflow: "hidden",
-            height: "20%",
-            whiteSpace: "nowrap"
+            
           }}
           className="desc"
         >
