@@ -9,7 +9,7 @@ import ReadersForum from "../sections/ReadersForum";
 
 const Home = () => {
   return (
-    <>
+    <div>
       <Landing />
       <About />
       <ReadersForum />
@@ -18,7 +18,7 @@ const Home = () => {
       <Events />
       <Team />
       <Footer />
-    </>
+    </div>
   );
 };
 

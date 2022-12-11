@@ -56,7 +56,7 @@ const App = () => {
       </div>
 
       {sidebarActive ? null : (
-        <div className="bro" id="speakerIcon">
+        <div id="speakerIcon">
           {isPlaying ? (
             <RxSpeakerLoud onClick={togglePlaySong} />
           ) : (

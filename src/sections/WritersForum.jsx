@@ -45,13 +45,18 @@ const WritersForum = () => {
         <div id="write_head" className="box-1">
           <h1>The Writers Forum</h1>
         </div>
-        <img
-          className="book_pho"
-          src="/assets/child-reading-sheets.png"
-          alt="Child under sheet"
-        />
-        <div id="write_cont" className="box-2">
-          <p>
+        <div
+          className="img-wrapper"
+          style={{ display: "flex", justifyContent: "center" }}
+        >
+          <img
+            className="book_pho"
+            src="/assets/child-reading-sheets.png"
+            alt="Child under sheet"
+          />
+        </div>
+        <div className="flex justify-center">
+          <p id="textContent">
             The writer’s forum is a platform to develop writing skills in
             diverse fields and to share works with a bunch of like-minded
             people. This Scribble Room is a place to showcase the power of your
