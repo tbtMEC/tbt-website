@@ -13,7 +13,6 @@
     justify-content: flex-start;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-right: 1%;
   }
   .box-1-abo {
     justify-content: flex-start;
@@ -115,19 +114,19 @@
       width: 60%;
       border-radius: 0%;
       margin-top: 6%;
-      margin-bottom: -10%;
       align-items: center;
       margin-left: 18%;
     }
 
     #about_cont {
-      max-width: 100%;
+      margin: auto;
+      justify-content: center;
+      max-width: 85%;
       padding-top: 18%;
       font-size: 125%;
       font-weight: 400;
       line-height: 160%;
       letter-spacing: 0em;
-      align-items: center;
       text-align: center;
     }
     .Star1 {

@@ -1,26 +1,44 @@
-import { BrowserRouter, createBrowserRouter, Routes } from "react-router-dom";
+import { BrowserRouter, Routes } from "react-router-dom";
+import { RxSpeakerLoud, RxSpeakerOff } from "react-icons/rx";
 import Home from "./pages/Home";
 import VisionPage from "./pages/Vision";
-import ErrorPage from "./pages/error-page";
 import MagicInTheAir from "./magicInTheAir.mp3";
 import { useRef } from "react";
 import { Route } from "react-router-dom";
 import Navbar from "./sections/Navbar";
 import { useState } from "react";
 import FourNotFour from "./pages/FourNotFour";
+import "./styles/app.scss";
 
 const App = () => {
   const audioRef = useRef(null);
+  const [isPlaying, setIsPlaying] = useState(false);
   const [sidebarActive, setSidebarActive] = useState(false);
 
-  const playSong = () => {
-    audioRef.current?.play();
+  // const playSong = () => {
+  //   // to start autoplay the first time only in mobile browsers
+  //   const audioEl = audioRef?.current;
+  //   if (isFirstRenderRef.current) {
+  //     audioRef.current?.play();
+  //     setIsPlaying(setIsPlaying(audioEl.currentTime > 0 && !audioEl.paused));
+  //     isFirstRenderRef.current = false;
+  //   }
+  // };
+
+  const togglePlaySong = () => {
+    if (isPlaying) {
+      setIsPlaying(false);
+      audioRef.current?.pause();
+    } else {
+      setIsPlaying(true);
+      audioRef.current?.play();
+    }
   };
 
   return (
-    <>
-      <audio src={MagicInTheAir} loop autoPlay ref={audioRef} />
-      <div className="" onClick={playSong}>
+    <div className="app">
+      <audio src={MagicInTheAir} loop ref={audioRef} />
+      <div className="">
         <BrowserRouter>
           <Navbar
             sidebarActive={sidebarActive}
@@ -36,7 +54,17 @@ const App = () => {
           </Routes>
         </BrowserRouter>
       </div>
-    </>
+
+      {sidebarActive ? null : (
+        <div id="speakerIcon">
+          {isPlaying ? (
+            <RxSpeakerLoud onClick={togglePlaySong} />
+          ) : (
+            <RxSpeakerOff onClick={togglePlaySong} />
+          )}
+        </div>
+      )}
+    </div>
   );
 };
 
