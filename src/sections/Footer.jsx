@@ -30,23 +30,23 @@ const Footer = () => {
           <div className="footer-bottom">
             <ul className="socials">
               <a href="https://instagram.com/thebookthieves.mec?igshid=YmMyMTA2M2Y=">
-                <FaInstagram class="icon" />
+                <FaInstagram className="icon" />
               </a>
               <a href="https://www.linkedin.com/company/the-book-thieves-mec/">
-                <TbBrandLinkedin class="icon" />
+                <TbBrandLinkedin className="icon" />
               </a>
 
               <a href="https://www.youtube.com/channel/UCRw4Vm3ynoMA4LVAB1g42Fw">
-                <TbBrandYoutube class="icon" />
+                <TbBrandYoutube className="icon" />
               </a>
               <a href="https://twitter.com/bookthievesmec">
-                <RxTwitterLogo class="icon" />
+                <RxTwitterLogo className="icon" />
               </a>
               <a href="mailto:thebookthieves@mec.ac.in">
-                <MdAlternateEmail class="icon" />
+                <MdAlternateEmail className="icon" />
               </a>
               <a href="https://discord.gg/eQ7GcZcPw5">
-                <RxDiscordLogo class="icon" />
+                <RxDiscordLogo className="icon" />
               </a>
             </ul>
 
