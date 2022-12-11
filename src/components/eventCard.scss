@@ -8,9 +8,16 @@
   font-family: Poppins;
   font-size: 2vh;
   height: 5%;
+  text-align: right;
 }
-
-#card{
+.desc {
+  text-align: left;
+  padding-top: 2%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+#card {
   cursor: pointer;
   background-color: white;
   padding-bottom: 20px;
@@ -19,15 +26,21 @@
   margin-bottom: 70px;
 }
 
-@media (max-width :800px){
-  .viewPostBtn{
-    font-size: 2vmin;
+@media (max-width: 800px) {
+  .viewPostBtn {
+    font-size: calc(2vmin + 0.3vmin);
   }
-  .tag{
+  .tag {
     font-size: 2.5vmin;
   }
-  .desc{
+  .desc {
     font-size: 3vmin;
-    overflow: scroll;
+    text-overflow: inherit;
+    overflow: auto;
+    white-space: normal;
+  }
+  .cardTitle {
+    text-align: left;
+    justify-content: baseline;
   }
 }
