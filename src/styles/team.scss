@@ -70,6 +70,9 @@
   }
 
   @media screen and (max-width: 800px) {
+    .row {
+      padding-left: 0;
+    }
     .head {
       font-size: 10vw;
     }
