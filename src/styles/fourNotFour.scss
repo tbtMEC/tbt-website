@@ -1,0 +1,28 @@
+#err {
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: contain;
+  background-image: url("https://the-book-thieves.netlify.app/assets/Stars.png");
+  h1 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-weight: bold;
+  }
+  h4 {
+    font-family: poppins;
+  }
+
+  .link {
+    font-family: stoke;
+  }
+}
+
+.box {
+  outline: 4px solid rgba(246, 247, 208, 0.83);
+  outline-offset: -1.5vw;
+}
+
+@media (max-width: 800px) {
+  .box {
+    margin: 10%;
+  }
+}

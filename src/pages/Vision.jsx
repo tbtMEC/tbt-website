@@ -21,6 +21,7 @@ const VisionPage = () => {
         <section
           style={{
             marginBottom: 30,
+            marginTop: "1%"
           }}
           className="visionSection"
         >
@@ -57,6 +58,7 @@ const VisionPage = () => {
             having the ability to participate in society.
           </p>
         </section>
+        <section id="endSection">
 
         <br />
         <hr />
@@ -87,7 +89,7 @@ const VisionPage = () => {
         <br />
         <br />
 
-        
+        </section>
       </div>
       <TeamSection />
       <Footer /> 

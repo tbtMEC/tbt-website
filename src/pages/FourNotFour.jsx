@@ -1,7 +1,9 @@
 import { HashLink } from "react-router-hash-link";
 import "../styles/fourNotFour.scss";
+import Footer from "../sections/Footer"
 
 const FourNotFour = () => (
+  <div>
   <div
     style={{
       minHeight: "100vh",
@@ -9,10 +11,11 @@ const FourNotFour = () => (
       backgroundColor: "#53090e",
       alignItems: "center",
     }}
-    className="flex center"
+    className="flex center "
   >
     <div
-      className=""
+      id="err"
+      className="box"
       style={{ textAlign: "center", padding: 50, fontSize: "150%" }}
     >
       <h1>404</h1>
@@ -20,10 +23,12 @@ const FourNotFour = () => (
         Ahoy there matey, you seem to have wandered into unknown territories!!
       </h4>
       <br />
-      <HashLink style={{ color: "#DCD1B2" }} to="/">
+      <HashLink className="link" style={{ color: "#DCD1B2" }} to="/">
         Come back into the light
       </HashLink>
     </div>
+  </div>
+  <Footer />
   </div>
 );
 
