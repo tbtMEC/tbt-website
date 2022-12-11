@@ -57,6 +57,7 @@ const VisionPage = () => {
             having the ability to participate in society.
           </p>
         </section>
+        <section id="endSection">
 
         <br />
         <hr />
@@ -87,7 +88,7 @@ const VisionPage = () => {
         <br />
         <br />
 
-        
+        </section>
       </div>
       <TeamSection />
       <Footer /> 
