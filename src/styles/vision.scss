@@ -41,13 +41,13 @@
 
   .visionSection {
     background-color: #3a050942;
-    border-radius: 20px;
     padding: 7% 0%;
     background-position: center center;
     background-attachment: fixed;
     background-size: contain;
     background-image: url("https://the-book-thieves.netlify.app/assets/Stars.png");
-    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    outline: 4px solid rgba(246, 247, 208, 0.83);
+    outline-offset: -1.5vw;
     animation: 2s ease-out 0s 1 FadeIn;
 
     @keyframes FadeIn {
@@ -63,13 +63,13 @@
 
   .missionSection {
     background-color: #3a050942;
-    border-radius: 20px;
+    outline: 4px solid rgba(246, 247, 208, 0.83);
+    outline-offset: -1.5vw;
     padding: 7% 0%;
     background-position: center center;
     background-attachment: fixed;
     background-size: contain;
     background-image: url("https://the-book-thieves.netlify.app/assets/Stars.png");
-    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
     animation: 2s ease-out 0s 1 FadeIn;
 
     @keyframes FadeIn {
@@ -87,6 +87,12 @@
     padding-top: 5%;
   }
 
+  #endSection{
+    p.bigText{
+      font-style: oblique;
+    }
+  }
+
   @media (max-width: 800px) {
     #videoWrapper {
       margin: 10% 0;
@@ -96,6 +102,19 @@
     }
     .wrapper h1 {
       font-size: 6vw;
+    }
+
+    #endSection {
+      margin: 0% -10%;
+
+      hr {
+        margin: 10%;
+      }
+
+      p.bigText {
+        font-size: 4.5vw;
+        font-style: oblique;
+      }
     }
   }
 }
