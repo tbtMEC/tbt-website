@@ -87,8 +87,8 @@
     padding-top: 5%;
   }
 
-  #endSection{
-    p.bigText{
+  #endSection {
+    p.bigText {
       font-style: oblique;
     }
   }
@@ -104,6 +104,15 @@
       font-size: 6vw;
     }
 
+    .missionSection {
+      outline-offset: -2.5vw;
+    }
+
+    .visionSection {
+      margin-top: 5%;
+      outline-offset: -2.5vw;
+    }
+
     #endSection {
       margin: 0% -10%;
 
@@ -117,4 +126,9 @@
       }
     }
   }
+  @media screen and (min-width: 600px) and (max-width: 855px) {
+    padding-top: 5%;
+  }
 }
+
+

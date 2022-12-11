@@ -21,6 +21,7 @@ const VisionPage = () => {
         <section
           style={{
             marginBottom: 30,
+            marginTop: "1%"
           }}
           className="visionSection"
         >
