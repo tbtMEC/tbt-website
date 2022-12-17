@@ -14,7 +14,6 @@ const SpeakersForum = () => {
       <img
         src="/assets/Stars.png"
         alt="Stars as background"
-        width="100%"
         height="auto"
         className="Stars1"
       />
