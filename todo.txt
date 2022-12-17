@@ -1,3 +1,1 @@
-- show stars
-- better borders for vision page
-- show an absolutely positioned speaker toggle icon at bottom 50px from left corner
+- dockerise app

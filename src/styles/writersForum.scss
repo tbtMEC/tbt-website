@@ -60,7 +60,7 @@
   .Stars2 {
     height: 80vh;
     width: auto;
-    left: 40%;
+    max-width: 100vh;
     right: 5%;
     top: auto;
     border-radius: 0px;
@@ -92,7 +92,7 @@
   }
 }
 
-@media only screen and (max-device-width: 1000px) {
+@media only screen and (max-device-width: 1200px) {
   #writersForum {
     flex-wrap: wrap;
     height: 800px;
