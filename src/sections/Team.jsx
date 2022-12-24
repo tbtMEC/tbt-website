@@ -11,7 +11,11 @@ const Team = () => {
       <div className="row">
         <div className="column">
           <div className="border">
-            <img src="/assets/president.jpg" alt="president" />
+            <div className="avatarBG">
+              <div className="avatar">
+                <img src="teamMembers22Images\president.png" alt="president" />
+              </div>
+            </div>
             <p>
               Vishnumaya Unni<br></br>President
             </p>
@@ -20,7 +24,14 @@ const Team = () => {
 
         <div className="column">
           <div className="border">
-            <img src="assets\vice president.png" alt="vice president" />
+            <div className="avatarBG">
+              <div className="avatar">
+                <img
+                  src="teamMembers22Images\vice_president.png"
+                  alt="vice president"
+                />
+              </div>
+            </div>
             <p>
               Sharat Jacob<br></br>Vice President
             </p>
@@ -29,7 +40,11 @@ const Team = () => {
 
         <div className="column">
           <div className="border">
-            <img src="assets\secretary.jpg" alt="secretary" />
+            <div className="avatarBG">
+              <div className="avatar">
+                <img src="teamMembers22Images/secretary.png" alt="secretary" />
+              </div>
+            </div>
             <p>
               Hisham Hashir<br></br>Secretary
             </p>
@@ -40,7 +55,14 @@ const Team = () => {
       <div className="row">
         <div className="column">
           <div className="border">
-            <img src="assets\design head.jpg" alt="Design Head" />
+            <div className="avatarBG">
+              <div className="avatar">
+                <img
+                  src="teamMembers22Images/design_head.png"
+                  alt="Design Head"
+                />
+              </div>
+            </div>
             <p>
               Ashik K L<br></br>Design Head
             </p>
@@ -49,7 +71,11 @@ const Team = () => {
 
         <div className="column">
           <div className="border">
-            <img src="assets\tech head.jpg" alt="Tech Lead" />
+            <div className="avatarBG">
+              <div className="avatar">
+                <img src="teamMembers22Images/tech_head.png" alt="Tech Lead" />
+              </div>
+            </div>
             <p>
               Aldrin Jenson<br></br>Tech Lead
             </p>
@@ -58,7 +84,14 @@ const Team = () => {
 
         <div className="column">
           <div className="border">
-            <img src="assets\content head.jpg" alt="Content Head" />
+            <div className="avatarBG">
+              <div className="avatar">
+                <img
+                  src="teamMembers22Images/content_head.png"
+                  alt="Content Head"
+                />
+              </div>
+            </div>
             <p>
               N Sreelakshmi<br></br>Content Head
             </p>
@@ -69,10 +102,14 @@ const Team = () => {
       <div className="row">
         <div className="column">
           <div className="border">
-            <img
-              src="assets\writers forum head.jpg"
-              alt=" Writers forum head"
-            />
+            <div className="avatarBG">
+              <div className="avatar">
+                <img
+                  src="teamMembers22Images/writers_forum_head.png"
+                  alt=" Writers forum head"
+                />
+              </div>
+            </div>
             <p>
               N A Laila<br></br>Writer's Forum Head
             </p>
@@ -81,10 +118,14 @@ const Team = () => {
 
         <div className="column">
           <div className="border">
-            <img
-              src="assets\speakers forum head.jpg"
-              alt="Speakers Forum Head"
-            />
+            <div className="avatarBG">
+              <div className="avatar">
+                <img
+                  src="teamMembers22Images/speakers_forum_head.png"
+                  alt="Speakers Forum Head"
+                />
+              </div>
+            </div>
             <p>
               Pranav H Nair<br></br>Speaker's Forum Head
             </p>
@@ -93,10 +134,14 @@ const Team = () => {
 
         <div className="column">
           <div className="border">
-            <img
-              src="assets\readers forum head.jpeg"
-              alt="Readers Forum Lead"
-            />
+            <div className="avatarBG">
+              <div className="avatar">
+                <img
+                  src="teamMembers22Images/readers_forum_head.png"
+                  alt="Readers Forum Lead"
+                />
+              </div>
+            </div>
             <p>
               Sneha Shaji<br></br>Reader's Forum Head
             </p>
