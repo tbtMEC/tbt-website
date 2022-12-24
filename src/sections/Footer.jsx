@@ -51,7 +51,10 @@ const Footer = () => {
             </ul>
 
             <div className="fbc">
-              <p className="copyright"> &copy; The Book Thieves</p>
+              <p className="copyright">
+                &copy;{" "}
+                <span id="copyright-year">{new Date().getFullYear()}</span> The Book Thieves
+              </p>
             </div>
           </div>
         </div>
