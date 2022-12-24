@@ -9,6 +9,7 @@ import Navbar from "./sections/Navbar";
 import { useState } from "react";
 import FourNotFour from "./pages/FourNotFour";
 import "./styles/app.scss";
+import "./components/customCursor";
 
 const App = () => {
   const audioRef = useRef(null);
@@ -37,6 +38,7 @@ const App = () => {
 
   return (
     <div className="app">
+      <customCursor />
       <audio src={MagicInTheAir} loop ref={audioRef} />
       <div className="">
         <BrowserRouter>
