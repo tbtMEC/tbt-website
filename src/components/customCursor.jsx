@@ -1,5 +1,5 @@
 import "./customCursor.scss";
-const customCursor = () => {
+const CustomCursor = () => {
   const updateProperties = (elem, state) => {
     elem.style.setProperty("--x", `${state.x}px`);
     elem.style.setProperty("--y", `${state.y}px`);
@@ -51,12 +51,6 @@ const customCursor = () => {
     });
   });
 
-  return (
-    <div>
-      <div className="cursor"></div>
-      
-    </div>
-  );
 };
 
-export default customCursor;
+export default CustomCursor;
