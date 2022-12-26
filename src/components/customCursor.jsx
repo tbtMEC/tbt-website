@@ -121,16 +121,18 @@ export default function Cursor() {
    * to trigger cursor animation
    */
   function handleLinkHovers() {
-    document.querySelectorAll("a").forEach((el) => {
-      el.addEventListener("mouseover", () => {
-        cursorEnlarged.current = true;
-        toggleCursorSize();
+    document
+      .querySelectorAll("a", "button")
+      .forEach((el) => {
+        el.addEventListener("mouseover", () => {
+          cursorEnlarged.current = true;
+          toggleCursorSize();
+        });
+        el.addEventListener("mouseout", () => {
+          cursorEnlarged.current = false;
+          toggleCursorSize();
+        });
       });
-      el.addEventListener("mouseout", () => {
-        cursorEnlarged.current = false;
-        toggleCursorSize();
-      });
-    });
 
     /* Handle iFrameA */
     document.querySelectorAll("iframe").forEach((el) => {
