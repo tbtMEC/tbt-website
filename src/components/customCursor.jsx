@@ -65,6 +65,7 @@ export default function Cursor() {
       window.removeEventListener("resize", onResize);
       cancelAnimationFrame(requestRef.current);
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   let { x, y } = mousePosition;
@@ -131,7 +132,7 @@ export default function Cursor() {
       });
     });
 
-    /* Handle iFrame */
+    /* Handle iFrameA */
     document.querySelectorAll("iframe").forEach((el) => {
       el.addEventListener("mouseover", () => {
         cursorDot.current.style.display = "none";
