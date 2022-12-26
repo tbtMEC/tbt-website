@@ -2,6 +2,7 @@ html *,
 body * {
   user-select: none;
   cursor: none;
+  
   a:hover {
     cursor: none;
   }
@@ -29,7 +30,7 @@ body {
   opacity: 0;
   transform: translate(-50%, -50%);
   transition: opacity 0.15s ease-in-out, transform 0.15s ease-in-out;
-  mix-blend-mode:difference;
+  mix-blend-mode: difference;
 }
 
 #cursor-dot {
@@ -51,9 +52,8 @@ body {
 
 @media screen and (max-width: 992px) {
   #cursor-dot,
-#cursor-dot-outline {
-  width: 0;
-  height:0;
-}
-
+  #cursor-dot-outline {
+    width: 0;
+    height: 0;
+  }
 }

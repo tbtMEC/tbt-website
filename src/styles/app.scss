@@ -9,11 +9,32 @@
     z-index: 2;
   }
 }
-img {  
-   user-drag: none;  
-   user-select: none;
-   -moz-user-select: none;
-   -webkit-user-drag: none;
-   -webkit-user-select: none;
-   -ms-user-select: none;
+img {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 1.3vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #721616;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(187, 60, 60);
+  box-shadow: 0 -100vh 0 100vh #2b0000, 0 0 15px 5px rgb(20, 1, 1);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
