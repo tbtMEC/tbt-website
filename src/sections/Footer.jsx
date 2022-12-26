@@ -26,7 +26,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <hr className="solid" />
+          <hr />
           <div className="footer-bottom">
             <ul className="socials">
               <a href="https://instagram.com/thebookthieves.mec?igshid=YmMyMTA2M2Y=">
