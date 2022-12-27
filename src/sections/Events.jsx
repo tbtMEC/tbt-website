@@ -5,23 +5,6 @@ import events from "../eventsData.json";
 import EventCard from "../components/eventCard";
 import useMediaQuery from "../hooks/useMediaQuery";
 
-const responsiveSpecs = {
-  desktop: {
-    breakpoint: { max: 3000, min: 1024 },
-    items: 3,
-    slidesToSlide: 3, // optional, default to 1.
-  },
-  tablet: {
-    breakpoint: { max: 1024, min: 464 },
-    items: 2,
-    slidesToSlide: 2, // optional, default to 1.
-  },
-  mobile: {
-    breakpoint: { max: 464, min: 0 },
-    items: 1,
-    slidesToSlide: 1, // optional, default to 1.
-  },
-};
 
 const Events = () => {
   const isMobile = !useMediaQuery("(min-width: 960px)");
@@ -36,20 +19,59 @@ const Events = () => {
     >
       <h1 className="title">Our Major Initiatives</h1>
       <Carousel
-        swipeable={true}
-        draggable={true}
+        additionalTransfrom={0}
+        arrows
+        autoPlay={isMobile ? true : false} 
+        autoPlaySpeed={1000}
+        centerMode={false}
+        className=""
+        containerClass="container-with-dots"
+        dotListClass=""
+        draggable
+        focusOnSelect={true}
+        infinite
+        itemClass=""
+        keyBoardControl
+        minimumTouchDrag={80}
+        pauseOnHover={true}
+        renderArrowsWhenDisabled={false}
+        renderButtonGroupOutside={false}
+        renderDotsOutside={false}
+        responsive={{
+          desktop: {
+            breakpoint: {
+              max: 3000,
+              min: 1024,
+            },
+            items: 3,
+            partialVisibilityGutter: 40,
+          },
+          mobile: {
+            breakpoint: {
+              max: 464,
+              min: 0,
+            },
+            items: 1,
+            partialVisibilityGutter: 30,
+          },
+          tablet: {
+            breakpoint: {
+              max: 1024,
+              min: 464,
+            },
+            items: 2,
+            partialVisibilityGutter: 30,
+          },
+        }}
+        rewind={true}
+        rewindWithAnimation={true}
+        rtl={false}
+        shouldResetAutoplay
         showDots={true}
-        responsive={responsiveSpecs}
-        infinite={true}
-        autoPlay={isMobile ? true : false}
-        autoPlaySpeed={2000}
-        keyBoardControl={true}
-        customTransition="all .5"
-        transitionDuration={900}
-        containerClass="carousel-container"
-        // removeArrowOnDeviceType={["tablet", "mobile"]}
-        dotListClass="custom-dot-list-style"
-        itemClass="carousel-item-padding-40-px"
+        sliderClass=""
+        slidesToSlide={1}
+        swipeable
+        transitionDuration={1000}
       >
         {events.map((event, index) => (
           <EventCard key={index} event={event} />
