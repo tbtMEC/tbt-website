@@ -4,7 +4,6 @@ nav {
   background: transparent;
   text-align: center;
   scroll-behavior: smooth;
-
   .list {
     background: transparent;
     display: flex;
@@ -12,19 +11,20 @@ nav {
     list-style-type: none;
     left: 0;
     right: 0;
-    margin: 5 auto;
+    padding: 5px 0;
+
   }
   a {
     margin-top: 5px;
-    margin: 20px;
-    font-size: 20px;
+    padding: 20px;
+    font-size: 1.5rem;
     font-family: poppins;
     color: #dcd1b2;
     text-decoration: none;
   }
 
   .btnmenu {
-    display: none;
+    visibility: hidden;
     position: absolute;
     right: 29px;
     top: 20px;
@@ -33,7 +33,7 @@ nav {
     border: none;
   }
 
-  @media screen and (max-width: 600px) {
+  @media (max-width:992px) {
     .list {
       top: 0;
       flex-direction: column;
@@ -54,7 +54,7 @@ nav {
     }
 
     .btnmenu {
-      display: block;
+      visibility:visible;
     }
   }
 }

@@ -1,40 +1,40 @@
 #readersForum {
   background-color: #360709;
-  height: fit-content;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
+  height: max-content;
+  min-height: max-content;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-left: auto;
+
+  .container {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
 
   .flexbox-1 {
-    display: flex;
-    height: fit-content;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    width: 88%;
+    align-items: flex-start;
+    margin-right: 10vw;
   }
   .book {
     width: 100px;
   }
   .head {
     font-family: Stoke;
-    width: 802px;
-    font-weight: bold;
-    font-size: 65px;
-    line-height: 81px;
-    text-align: center;
+    font-size: 6vw;
     color: rgba(246, 247, 208, 0.83);
+    text-align: left;
   }
 
   .child {
-    width: 576px;
-    height: 491px;
-    filter: blur(1px);
+    width: 40vw;
+    height: auto;
     border-radius: 30%;
-    align-self: center;
     margin-top: 10px;
     padding: 0 30px;
     margin-bottom: 20px;
@@ -45,18 +45,23 @@
     border-radius: 0px;
   }
   .stars {
-    height: 0;
+    display: none;
+    position: absolute;
+  }
+  .img2 {
+    display: none;
+  }
+  .img1 {
+    display: block;
+    padding-left: 4%;
   }
   .flexbox-3 {
     font-family: Poppins;
     width: 66%;
     height: fit-content;
-    font-size: 30px;
-    margin-bottom: 60px;
+    font-size: 1.3rem;
   }
   p {
-    text-align: center;
-    line-height: 143.5%;
     color: #edd7b8;
   }
   .book1 {
@@ -64,55 +69,59 @@
     height: 0;
   }
 
-  @media only screen and (max-device-width: 640px) {
-    #readersForum section {
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-      height: 800px;
-      width: auto;
+  @media only screen and (max-width: 800px) {
+    flex-wrap: wrap;
+    width: auto;
+    display: flex;
+    left: 0%;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0vw;
+
+    .container {
+      justify-content: flex-start;
+      flex-direction: column;
+      display: flex;
+      align-items: center;
     }
 
+    .img2 {
+      display: block;
+    }
+    .img1 {
+      display: none;
+    }
+
+    .child {
+      width: 60vw;
+      height: auto;
+    }
     .flexbox-1 {
-      width: 282px;
-      height: 80px;
-      margin-top: 27px;
       padding: 0;
       margin-bottom: 20px;
+      justify-content: flex-start;
+      align-items: center;
+      text-align: right;
+      margin-right: 0;
     }
     .head {
-      font-style: normal;
-      font-size: 32px;
-      line-height: 40px;
-      font-weight: bold;
       display: flex;
       color: rgba(246, 246, 208, 0.83);
-      text-align: center;
     }
     .book {
       height: 0;
       width: 0;
+      text-align: center;
+      margin: 0;
     }
 
-    .child {
-      width: 214px;
-      height: 182.87px;
-      border-radius: 30%;
-      filter: blur(0);
-      margin-top: 0px;
-      margin-bottom: 20px;
-      padding: 0;
-    }
     p {
       font-style: normal;
-      font-weight: 400;
-      font-size: 22px;
-      line-height: 143.5%;
-      text-align: center;
+      font-size: medium;
     }
     .flexbox-3 {
-      width: 264px;
-      height: 340px;
       margin-bottom: 120px;
+      text-align: center;
     }
     .book1 {
       width: 43.98px;

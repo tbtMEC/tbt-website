@@ -1,4 +1,5 @@
 #vision {
+  flex: auto;
   #videoWrapper {
     // border: 5px solid #dcd1b2;
     margin: 9vh 9vw;
@@ -21,7 +22,7 @@
 
   .wrapper p {
     font-family: "Poppins", sans-serif;
-    font-size: 1.3rem;
+    font-size: medium;
     letter-spacing: 0em;
     color: #dcd1b2;
     padding: 0% 10%;
@@ -29,17 +30,18 @@
   }
 
   .wrapper h1 {
-    font-size: 3rem;
+    font-size: xx-large;
     font-family: "stoke", serif;
     padding-bottom: 0.85%;
     text-align: center;
   }
 
   p.bigText {
-    font-size: 2vw;
+    font-size: large;
   }
 
   .visionSection {
+    position: relative;
     background-color: #3a050942;
     padding: 7% 0%;
     background-position: center center;
@@ -93,7 +95,7 @@
     }
   }
 
-  @media (max-width: 800px) {
+  @media (pointer: coarse) {
     #videoWrapper {
       margin: 10% 0;
     }
@@ -101,7 +103,7 @@
       font-size: medium;
     }
     .wrapper h1 {
-      font-size: 6vw;
+      font-size: xx-large;
     }
 
     .missionSection {
@@ -121,13 +123,13 @@
       }
 
       p.bigText {
-        font-size: 4.5vw;
+        font-size: large;
         font-style: oblique;
       }
     }
   }
-  @media screen and (min-width: 600px) and (max-width: 855px) {
-    padding-top: 5%;
+  @media screen and (min-width: 992px) and (max-width: 1270px) {
+    padding-top: 3%;
   }
 }
 

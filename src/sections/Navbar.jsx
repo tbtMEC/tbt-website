@@ -31,7 +31,7 @@ export default function Navbar({ sidebarActive, setSidebarActive }) {
         </div>
       ) : null}
 
-      {(sidebarActive || screenWidth > 600) && (
+      {(sidebarActive || screenWidth > 992) && (
         <ul className="list">
           <li className="items">
             <HashLink onClick={() => setSidebarActive(false)} to="/#about">
