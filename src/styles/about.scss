@@ -1,18 +1,18 @@
 #about {
   background-color: #300b0b;
   color: #f6f7d1;
-  height: 100vh;
-  width: auto;
   border-radius: 0px;
   padding-left: 6%;
   padding-right: 6%;
   overflow: hidden;
+  padding-bottom: 6%;
+  padding-top: 6%;
+  padding-bottom: calc(100% - 85vw);
 
   .container {
-    max-height: 100vh;
     justify-content: flex-start;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
   .box-1-abo {
     justify-content: flex-start;
@@ -31,9 +31,8 @@
 
   #head_about {
     font-family: Stoke;
-    font-size: 257%;
+    font-size: 2vw;
     font-weight: 300;
-    max-height: fit-content;
     letter-spacing: 0em;
     text-align: right;
     margin-right: auto;
@@ -41,10 +40,10 @@
 
   #about_cont {
     font-family: Poppins;
-    font-size: 187%;
+    font-size: 1.3rem;
     font-weight: 400;
-    line-height: 166%;
     letter-spacing: 0em;
+    padding-top: 2%;
     text-align: right;
     max-height: fit-content;
   }
@@ -84,23 +83,20 @@
   }
 }
 
-@media only screen and (max-device-width: 1020px) {
+@media (max-width: 800px) {
   #about {
     flex-wrap: wrap;
-    min-height: 100%;
     width: auto;
     display: flex;
     left: 0%;
     flex-direction: column;
     align-items: center;
-    padding-top: -50%;
-
+    p {
+      padding: 0 5%;
+    }
     #head_about {
-      min-height: 5%;
-      min-width: auto;
       font-size: 125%;
       font-weight: 400;
-      line-height: 8%;
       letter-spacing: 0em;
       margin-left: 0%;
       margin-right: 0%;
@@ -122,8 +118,7 @@
       margin: auto;
       justify-content: center;
       max-width: 85%;
-      padding-top: 18%;
-      font-size: 125%;
+      font-size: medium;
       font-weight: 400;
       line-height: 160%;
       letter-spacing: 0em;
