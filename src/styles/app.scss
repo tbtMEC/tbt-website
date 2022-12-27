@@ -1,3 +1,6 @@
+html{
+  overflow-x:hidden;
+}
 .app {
   #speakerIcon {
     position: fixed;
@@ -8,4 +11,32 @@
     color: #d3cfb1;
     z-index: 2;
   }
+}
+img {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #721616;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(187, 60, 60);
+  box-shadow: 0 -100vh 0 100vh #2b0000, 0 0 15px 5px rgba(20, 1, 1, 0.37);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(207, 100, 100);
 }

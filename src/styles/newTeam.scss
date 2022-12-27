@@ -64,7 +64,7 @@
 
   .head {
     text-align: center;
-    font-size: 6vw;
+    font-size: xx-large;
     font-family: "stoke";
     padding-left: 2vw;
     padding-top: 3vw;
@@ -95,10 +95,8 @@
 
   
 
-  @media screen and (max-width: 800px) {
-    .head {
-      font-size: 10vw;
-    }
+  @media screen and (max-width: 600px) {
+    
     .border {
       height: min-content;
       width: 80%;

@@ -26,21 +26,28 @@ const EventCard = ({ event }) => {
           }}
           alt={title}
         />
-        <div 
-            className="cardTitle flex space-between">
+        <div className="cardTitle flex space-between">
           <h3
             style={{
               fontFamily: "Stoke",
               color: "#53171b",
               textOverflow: "ellipsis",
-              width: "fit-content",
               overflow: "hidden",
-              whiteSpace: "nowrap"
+              whiteSpace: "nowrap",
+              width: "fit-content",
             }}
           >
             {title}
           </h3>
-          <div className="viewPostBtn">View Post</div>
+          <div className="flex viewPostBtn">
+            <span
+              style={{           
+                whiteSpace: "nowrap",
+              }}
+            >
+              View Post
+            </span>
+          </div>
         </div>
         <span
           className="tag"
@@ -62,7 +69,6 @@ const EventCard = ({ event }) => {
           style={{
             fontFamily: "Poppins",
             color: "#53171b",
-            
           }}
           className="desc"
         >

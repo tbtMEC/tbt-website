@@ -38,11 +38,11 @@ const WritersForum = () => {
           src="/assets/child-reading-sheets.png"
           alt="Child under sheet"
         />
-        <img className="pen" src="/assets/pen-svgrepo-com 1.png" alt="pen" />
       </div>
       {/* <div className=""> */}
       <div className="container">
         <div id="write_head" className="box-1">
+          <img className="pen" src="/assets/pen-svgrepo-com 1.png" alt="pen" />
           <h1>The Writers Forum</h1>
         </div>
         <div

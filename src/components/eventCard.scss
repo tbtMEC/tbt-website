@@ -6,19 +6,17 @@
   opacity: 0.8;
   color: white;
   font-family: Poppins;
-  font-size: 2vh;
-  height: 5%;
-  text-align: right;
+  font-size: medium;
+  text-align: center;
 }
 .desc {
   text-align: left;
   padding-top: 2%;
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space: nowrap;
+  white-space:nowrap;
 }
 #card {
-  cursor: pointer;
   background-color: white;
   padding-bottom: 20px;
   padding: 10px;
@@ -38,9 +36,5 @@
     text-overflow: inherit;
     overflow: auto;
     white-space: normal;
-  }
-  .cardTitle {
-    text-align: left;
-    justify-content: baseline;
   }
 }
