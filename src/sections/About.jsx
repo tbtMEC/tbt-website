@@ -24,7 +24,8 @@ const About = () => {
         height="auto"
         className="Star1"
       />
-      <div data-aos="fade" data-aos-offset="300"
+      <div
+        data-aos="fade"
         style={{
           display: "flex",
           alignItems: "center",

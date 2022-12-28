@@ -1,5 +1,13 @@
-html{
-  overflow-x:hidden;
+html {
+  overflow-x: hidden;
+  [data-aos="slide-left"] {
+    opacity: 0;
+    transition-property: transform, opacity;
+
+    &.aos-animate {
+      opacity: 1;
+    }
+  }
 }
 .app {
   #speakerIcon {
