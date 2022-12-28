@@ -33,7 +33,6 @@ const SpeakersForum = () => {
       />
       <div
         data-aos="fade"
-        data-aos-offset="300"
         style={{
           display: "flex",
           alignItems: "center",

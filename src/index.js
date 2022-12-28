@@ -12,11 +12,12 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 // AOS.init()
 
 AOS.init({
-  offset: 0,
-  duration: 1300,
+  offset: -100,
+  duration: 500,
   easing: "ease-in-out-back",
-  delay: 200,
+  delay: 10,
   mirror: true,
+  anchorPlacement: "top-center",
 });
 
 root.render(
