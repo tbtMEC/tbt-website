@@ -32,42 +32,57 @@ const WritersForum = () => {
         height="auto"
         className="Star1"
       />
-      <div className="box-3">
-        <img
-          className="book"
-          src="/assets/child-reading-sheets.png"
-          alt="Child under sheet"
-        />
-      </div>
-      {/* <div className=""> */}
-      <div className="container">
-        <div id="write_head" className="box-1">
-          <img className="pen" src="/assets/pen-svgrepo-com 1.png" alt="pen" />
-          <h1>The Writers Forum</h1>
-        </div>
-        <div
-          className="img-wrapper"
-          style={{ display: "flex", justifyContent: "center" }}
-        >
+      <div
+        data-aos="fade"
+        data-aos-offset="300"
+        style={{
+          display: "flex",
+          alignItems: "center",
+          flexDirection: "row",
+          height: "100vh",
+        }}
+      >
+        <div data-aos="slide-right" className="box-3">
           <img
-            className="book_pho"
+            className="book"
             src="/assets/child-reading-sheets.png"
             alt="Child under sheet"
           />
         </div>
-        <div className="flex justify-center">
-          <p id="textContent">
-            The writer’s forum is a platform to develop writing skills in
-            diverse fields and to share works with a bunch of like-minded
-            people. This Scribble Room is a place to showcase the power of your
-            pen.
-          </p>
+        {/* <div className=""> */}
+        <div data-aos="slide-right" className="container">
+          <div id="write_head" className="box-1">
+            <img
+              className="pen"
+              src="/assets/pen-svgrepo-com 1.png"
+              alt="pen"
+            />
+            <h1>The Writers Forum</h1>
+          </div>
+          <div
+            className="img-wrapper"
+            style={{ display: "flex", justifyContent: "center" }}
+          >
+            <img
+              className="book_pho"
+              src="/assets/child-reading-sheets.png"
+              alt="Child under sheet"
+            />
+          </div>
+          <div className="flex justify-center">
+            <p id="textContent">
+              The writer’s forum is a platform to develop writing skills in
+              diverse fields and to share works with a bunch of like-minded
+              people. This Scribble Room is a place to showcase the power of
+              your pen.
+            </p>
+          </div>
+          <img
+            className="pen_pho"
+            src="/assets/pen-svgrepo-com 1.png"
+            alt="pen"
+          />
         </div>
-        <img
-          className="pen_pho"
-          src="/assets/pen-svgrepo-com 1.png"
-          alt="pen"
-        />
       </div>
       {/* </div> */}
     </div>
