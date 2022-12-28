@@ -1,13 +1,11 @@
 #landing {
   background: center no-repeat url("../../public/assets/bg.png");
   background-size: cover;
-  height: 100vh;
-  flex: content;
-  flex-shrink: center;
-
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   #text-content {
-    position: relative;
-    top: 40vh;
+    padding-top: 40vh;
   }
 
   .logo-wrapper {
@@ -17,7 +15,7 @@
 
   h1 {
     font-family: Stoke;
-    font-size:7vw;
+    font-size: 7vw;
     color: #f6f7d1;
     text-align: center;
   }
