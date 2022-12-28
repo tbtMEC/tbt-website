@@ -1,7 +1,7 @@
 #writersForum {
   background-color: #3e070a;
   color: #f6f7d1;
-  height: max-content;
+  min-height: 100vh;
   width: auto;
   border-radius: 0px;
   padding: 5% 5% 5% 4%;
@@ -9,7 +9,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: calc(100% - 90vw + 20px);
 
   #container {
     margin-top: -1%;
@@ -27,7 +26,7 @@
   .box-3 {
     margin-left: 10px;
     justify-content: center;
-    margin-right: 80px;
+    margin-right: 3%;
   }
 
   #write_head {
