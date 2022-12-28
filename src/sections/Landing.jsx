@@ -5,11 +5,11 @@ const Landing = () => {
   return (
     <div className="section" id="landing">
       <div style={{ textAlign: "center" }} id="text-content">
-        <span>
+        <span data-aos="fade-up">
           <h1>Welcome to TBT</h1>
 
           <p> For flippers, scribblers and speakers </p>
-          <button className="join-btn">
+          <button data-aos="zoom-in" className="join-btn">
             <a
               target="_blank"
               rel="noreferrer"
