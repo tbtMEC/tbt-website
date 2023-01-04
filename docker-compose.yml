@@ -4,11 +4,11 @@ services:
     container_name: tbt-website
     build:
       context: .
-    # environment:
-    #   - VIRTUAL_HOST=dsc.mec.ac.in
+    environment:
+      - VIRTUAL_HOST=tbt.mec.ac.in
     restart: "always"
 
 networks:
   default:
-    # external:
-    #   name: mec
+    external:
+      name: mec
