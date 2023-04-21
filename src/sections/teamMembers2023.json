@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Parvathi Vinod",
+    "designation": "President ",
+    "image": "president.jpg"
+  },
+  {
+    "name": "Lucy Maria Binod ",
+    "designation": "Vice President ",
+    "image": "vice_president.jpg"
+  },
+  {
+    "name": "Laila Subaida Beevi ",
+    "designation": "Secretary ",
+    "image": "secretary.png"
+  },
+  {
+    "name": "Anandu Kishor Kumar",
+    "designation": "Content Head ",
+    "image": "content_head.jpg"
+  },
+  {
+    "name": "Annu Kuruvilla ",
+    "designation": "Design Head ",
+    "image": "design_head.jpg"
+  },
+  {
+    "name": "Ashik K L ",
+    "designation": "Tech Head ",
+    "image": "tech_head.png"
+  },
+  {
+    "name": "Fathima Roshni ",
+    "designation": "Publicity Head ",
+    "image": "publicity_head.jpg"
+  },
+  {
+    "name": "Gourisankar Shaji",
+    "designation": "Events Head ",
+    "image": "events_head.jpg"
+  },
+  {
+    "name": "J Atulya",
+    "designation": "Readers' Forum Head ",
+    "image": "readers_forum_head.jpg"
+  },
+  {
+    "name": "Sheethal K S",
+    "designation": "Writers' Forum Head ",
+    "image": "writers_forum_head.jpg"
+  },
+  {
+    "name": "Jerry Biji Mathew ",
+    "designation": "Speakers' Forum Head ",
+    "image": "speakers_forum_head.jpg"
+  }
+]
