@@ -1,4 +1,15 @@
 #events {
+  .react-multi-carousel-dot button {
+    background-color: rgb(78, 8, 8);
+    border-color: rgb(90, 10, 10);
+  }
+  .react-multi-carousel-dot--active button {
+    background-color: rgb(139, 75, 75);
+    border-color: rgb(90, 10, 10);
+  }
+  .react-multiple-carousel__arrow {
+    background-color: rgb(139, 75, 75);
+  }
   .title {
     font-family: Stoke;
     font-weight: bold;

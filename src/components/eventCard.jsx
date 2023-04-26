@@ -26,11 +26,14 @@ const EventCard = ({ event }) => {
           }}
           alt={title}
         />
-        <div className="cardTitle flex space-between">
+        <div
+          className="cardTitle flex space-between"
+          style={{ paddingTop: "5px", margin: "5px" }}
+        >
           <h3
             style={{
               fontFamily: "Stoke",
-              color: "#53171b",
+              color: "#f6f7d1",
               textOverflow: "ellipsis",
               overflow: "hidden",
               whiteSpace: "nowrap",
@@ -41,7 +44,7 @@ const EventCard = ({ event }) => {
           </h3>
           <div className="flex viewPostBtn">
             <span
-              style={{           
+              style={{
                 whiteSpace: "nowrap",
               }}
             >
@@ -60,6 +63,7 @@ const EventCard = ({ event }) => {
             whiteSpace: "nowrap",
             fontFamily: "sans-serif",
             justifyContent: "space-between",
+            margin: "0px 10px",
             display: "flex",
           }}
         >
@@ -68,7 +72,9 @@ const EventCard = ({ event }) => {
         <p
           style={{
             fontFamily: "Poppins",
-            color: "#53171b",
+            color: "#f6f7d1",
+            margin: "0px 10px",
+            paddingBottom:"2px",
           }}
           className="desc"
         >

@@ -1,5 +1,4 @@
 .viewPostBtn {
-  border: 1px solid darkgray;
   padding: 5px 10px;
   border-radius: 15px;
   background-color: #53171b;
@@ -14,14 +13,16 @@
   padding-top: 2%;
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space:nowrap;
+  white-space: nowrap;
 }
 #card {
-  background-color: white;
+  background-color: #3e070a;
   padding-bottom: 20px;
   padding: 10px;
   margin: 20px;
   margin-bottom: 70px;
+  border-radius: 20px;
+  color: #ffffff;
 }
 
 @media (max-width: 800px) {
