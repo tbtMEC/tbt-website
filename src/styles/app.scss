@@ -1,5 +1,4 @@
 html {
-  overflow-x: hidden;
   [data-aos="slide-left"] {
     opacity: 0;
     transition-property: transform, opacity;
@@ -10,6 +9,8 @@ html {
   }
 }
 .app {
+  overflow-x: hidden;
+
   #speakerIcon {
     position: fixed;
     font-size: 30px;
