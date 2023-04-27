@@ -28,7 +28,7 @@ const Footer = () => {
 
           <hr />
           <div className="footer-bottom">
-            <ul className="socials">
+            <span className="socials">
               <a href="https://instagram.com/thebookthieves.mec?igshid=YmMyMTA2M2Y=">
                 <FaInstagram className="icon" />
               </a>
@@ -48,7 +48,7 @@ const Footer = () => {
               <a href="https://discord.gg/eQ7GcZcPw5">
                 <RxDiscordLogo className="icon" />
               </a>
-            </ul>
+            </span>
 
             <div className="fbc">
               <p className="copyright">

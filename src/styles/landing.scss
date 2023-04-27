@@ -6,7 +6,9 @@
   flex-direction: column;
   background-color: #53171b;
   #text-content {
-    padding-top: 40vh;
+    padding-top: calc(40vh + 100px);
+    flex-basis: 80%;
+    padding-bottom: 20vh;
   }
 
   .logo-wrapper {

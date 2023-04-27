@@ -12,9 +12,9 @@ html {
 }
 
 .section {
-  min-height: 80vh;
-  display: flex;
-  flex-direction: column;
+  min-height: 100vh;
+  display: grid;
+  align-items: center;
 }
 
 .flex {
