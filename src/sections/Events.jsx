@@ -22,7 +22,7 @@ const Events = () => {
         additionalTransfrom={0}
         arrows
         autoPlay={isMobile ? true : false} 
-        autoPlaySpeed={1000}
+        autoPlaySpeed={5000}
         centerMode={false}
         className=""
         containerClass="container-with-dots"
