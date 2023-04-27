@@ -115,7 +115,9 @@
       align-items: center;
       margin-left: 18%;
     }
-
+    .flex-col {
+      flex-direction: column;
+    }
     #about_cont {
       margin: auto;
       justify-content: center;
