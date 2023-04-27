@@ -7,7 +7,9 @@
   padding-bottom: 6%;
   padding-top: 6%;
   min-height: 100vh;
-
+  .flex-col {
+    flex-direction: row;
+  }
   .container {
     justify-content: flex-start;
     flex-direction: column;
