@@ -34,6 +34,7 @@ const WritersForum = () => {
       />
       <div
         data-aos="fade"
+        className="flex-col"
         style={{
           display: "flex",
           alignItems: "center",
