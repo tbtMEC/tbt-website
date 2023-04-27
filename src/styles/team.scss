@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Stoke&display=swap");
 #team {
   background: #53090e;
-  height: auto;
   background-position: center center;
   background-attachment: fixed;
   background-size: contain;
@@ -104,10 +103,11 @@
     display: flex;
     justify-content: center;
     z-index: 5;
-    padding-bottom: 5vh;
+    padding-bottom: 5rem;
     position: relative;
   }
   @media only screen and (max-width: 640px) {
+
     .head {
       font-size: 10vw;
     }

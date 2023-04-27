@@ -23,7 +23,6 @@ const ReadersForum = () => {
           display: "flex",
           alignItems: "center",
           flexDirection: "row",
-          height: "100vh",
         }}
       >
         <div data-aos="slide-right" className=" img1">

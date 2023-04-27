@@ -23,7 +23,6 @@ const About = () => {
           display: "flex",
           alignItems: "center",
           flexDirection: "row",
-          height: "100vh",
         }}
       >
         <div data-aos="slide-left">

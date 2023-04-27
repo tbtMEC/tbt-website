@@ -1,11 +1,14 @@
 #landing {
-  background: center no-repeat url("../../public/assets/bg.png");
+  background: center no-repeat url("../../public/assets/bg.webp");
   background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: #53171b;
   #text-content {
-    padding-top: 40vh;
+    padding-top: calc(30vh + 100px);
+    flex-basis: 80%;
+    padding-bottom: 20vh;
   }
 
   .logo-wrapper {
@@ -41,6 +44,7 @@
     text-align: center;
     margin-top: 50px;
     border: none;
+    background-color: #f6f7d1;
   }
   button {
     height: 68.93px;
@@ -48,7 +52,6 @@
     border-radius: 40px;
     opacity: 77%;
   }
-
   @media screen and (max-width: 600px) {
     #text-content {
       top: 45vh;

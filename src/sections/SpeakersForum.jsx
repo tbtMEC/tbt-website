@@ -37,7 +37,6 @@ const SpeakersForum = () => {
           display: "flex",
           alignItems: "center",
           flexDirection: "row",
-          height: "100vh",
         }}
       >
         <div className="container2">

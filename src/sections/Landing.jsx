@@ -9,16 +9,16 @@ const Landing = () => {
           <h1>Welcome to TBT</h1>
 
           <p> For flippers, scribblers and speakers </p>
-          <button data-aos="zoom-in" className="join-btn">
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://discord.gg/eQ7GcZcPw5"
-            >
-              Join Us
-            </a>
-          </button>
         </span>
+        <button
+          data-aos="zoom-in"
+          className="join-btn"
+          target="_blank"
+          rel="noreferrer"
+          href="https://discord.gg/eQ7GcZcPw5"
+        >
+          Join Us
+        </button>
       </div>
     </div>
   );

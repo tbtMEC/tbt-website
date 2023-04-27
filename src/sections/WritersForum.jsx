@@ -38,7 +38,6 @@ const WritersForum = () => {
           display: "flex",
           alignItems: "center",
           flexDirection: "row",
-          height: "100vh",
         }}
       >
         <div data-aos="slide-right" className="box-3">

@@ -42,7 +42,7 @@ const EventCard = ({ event }) => {
           >
             {title}
           </h3>
-          <div className="flex viewPostBtn">
+          {/* <div className="flex viewPostBtn">
             <span
               style={{
                 whiteSpace: "nowrap",
@@ -50,7 +50,7 @@ const EventCard = ({ event }) => {
             >
               View Post
             </span>
-          </div>
+          </div> */}
         </div>
         <span
           className="tag"
