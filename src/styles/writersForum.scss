@@ -92,10 +92,10 @@
 }
 
 @media only screen and (max-width: 800px) {
-  .flex-col {
-    flex-direction: column;
-  }
   #writersForum {
+    .flex-col {
+      flex-direction: column;
+    }
     flex-direction: column;
     align-items: center;
     .box-1 {

@@ -8,11 +8,11 @@ nav {
     background-color: transparent;
     display: flex;
     justify-content: center;
+    align-items: center;
     list-style-type: none;
     left: 0;
     right: 0;
     padding: 5px 0;
-
   }
   a {
     margin-top: 5px;
@@ -33,7 +33,7 @@ nav {
     border: none;
   }
 
-  @media (max-width:992px) {
+  @media (max-width: 992px) {
     .list {
       top: 0;
       flex-direction: column;
@@ -54,7 +54,7 @@ nav {
     }
 
     .btnmenu {
-      visibility:visible;
+      visibility: visible;
     }
   }
 }

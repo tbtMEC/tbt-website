@@ -81,7 +81,7 @@ export default function Navbar({ sidebarActive, setSidebarActive }) {
       )}
 
       <button onClick={toggleNav} className="btnmenu">
-        <img src="/assets/menu.png" alt="" />
+        <img src="/assets/menu.png" alt="" />''
       </button>
     </nav>
   );
