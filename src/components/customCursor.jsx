@@ -36,7 +36,7 @@ export default function Cursor() {
     cursorEnlarged.current = false;
     toggleCursorSize();
   };
-  const onResize = (event) => {
+  const onResize = () => {
     setWidth(window.innerWidth);
     setHeight(window.innerHeight);
   };
@@ -65,7 +65,7 @@ export default function Cursor() {
       window.removeEventListener("resize", onResize);
       cancelAnimationFrame(requestRef.current);
     };
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   let { x, y } = mousePosition;
@@ -83,12 +83,13 @@ export default function Cursor() {
     // Position the dot
     endX = e.pageX;
     endY = e.pageY;
+
     cursorDot.current.style.top = endY + "px";
     cursorDot.current.style.left = endX + "px";
   }
 
   /**
-   * Toggle Cursor Visiblity
+   * Toggle Cursor Visibility
    */
   function toggleCursorVisibility() {
     if (cursorVisible.current) {
@@ -121,35 +122,21 @@ export default function Cursor() {
    * to trigger cursor animation
    */
   function handleLinkHovers() {
-    document
-      .querySelectorAll("a", "button")
-      .forEach((el) => {
-        el.addEventListener("mouseover", () => {
-          cursorEnlarged.current = true;
-          toggleCursorSize();
-        });
-        el.addEventListener("mouseout", () => {
-          cursorEnlarged.current = false;
-          toggleCursorSize();
-        });
-      });
-
-    /* Handle iFrameA */
-    document.querySelectorAll("iframe").forEach((el) => {
+    document.querySelectorAll("a", "button").forEach((el) => {
       el.addEventListener("mouseover", () => {
-        cursorDot.current.style.display = "none";
-        cursorDotOutline.current.style.display = 'none';
+        cursorEnlarged.current = true;
+        toggleCursorSize();
       });
-      el.addEventListener("mouseleave", () => {
-        cursorDot.current.style.display = "block";
-        cursorDotOutline.current.style.display = "block";
+      el.addEventListener("mouseout", () => {
+        cursorEnlarged.current = false;
+        toggleCursorSize();
       });
     });
   }
 
   /**
    * Animate Dot Outline
-   * Aniamtes cursor outline with trailing effect.
+   * Animates cursor outline with trailing effect.
    * @param {number} time
    */
   const animateDotOutline = (time) => {

@@ -10,15 +10,16 @@ const Landing = () => {
 
           <p> For flippers, scribblers and speakers </p>
         </span>
-        <button
-          data-aos="zoom-in"
-          className="join-btn"
-          target="_blank"
-          rel="noreferrer"
-          href="https://discord.gg/eQ7GcZcPw5"
-        >
-          Join Us
-        </button>
+        <a href="https://discord.gg/eQ7GcZcPw5">
+          <button
+            data-aos="zoom-in"
+            className="join-btn"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Join Us
+          </button>
+        </a>
       </div>
     </div>
   );
