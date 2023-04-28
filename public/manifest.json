@@ -28,9 +28,9 @@
       "sizes": "28x39"
     },
     {
-      "src": "OFFICIAL_LOGO1 1.png",
+      "src": "tbtLogo.png",
       "type": "image/png",
-      "sizes": "132x184"
+      "sizes": "64x64 128x128 256x256 512x512"
     }
    
   ],
