@@ -45,7 +45,7 @@ export default function Navbar({ sidebarActive, setSidebarActive }) {
                 width="16"
                 height="16"
                 fill="currentColor"
-                class="bi bi-caret-down-fill"
+                className="bi bi-caret-down-fill"
                 viewBox="0 0 16 16"
               >
                 {" "}
