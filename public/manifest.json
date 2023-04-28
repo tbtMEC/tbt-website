@@ -8,26 +8,6 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "insta.png",
-      "type": "image/png",
-      "sizes": "192x31"
-    },
-    {
-      "src": "linkedin.png",
-      "type": "image/png",
-      "sizes": "32x33"
-    },
-    {
-      "src": "discord.png",
-      "type": "image/png",
-      "sizes": "28x39"
-    },
-    {
       "src": "tbtLogo.png",
       "type": "image/png",
       "sizes": "64x64 128x128 256x256 512x512"
