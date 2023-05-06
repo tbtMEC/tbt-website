@@ -10,7 +10,7 @@ export default function Navbar({ sidebarActive, setSidebarActive }) {
   };
   useEffect(() => {
     let input = document.getElementById("openMenu");
-    input.checked = !sidebarActive;
+    input.checked = sidebarActive;
   }, [sidebarActive]);
 
   useEffect(() => {
