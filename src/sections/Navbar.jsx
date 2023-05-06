@@ -7,9 +7,11 @@ export default function Navbar({ sidebarActive, setSidebarActive }) {
 
   const toggleNav = () => {
     setSidebarActive((currState) => !currState);
-    let input=document.getElementById("openMenu");
-    input.checked=!sidebarActive;
   };
+  useEffect(() => {
+    let input = document.getElementById("openMenu");
+    input.checked = !sidebarActive;
+  }, [sidebarActive]);
 
   useEffect(() => {
     const changeWidth = () => {
@@ -120,12 +122,17 @@ export default function Navbar({ sidebarActive, setSidebarActive }) {
         </div>
       )}
 
-      <input onClick={toggleNav} type="checkbox" id="openMenu" className="btnmenu"/>
-        <label htmlFor="openMenu" className="sidebarIconToggle">
-          <div className="spinner diagonal part-1"></div>
-          <div className="spinner horizontal"></div>
-          <div className="spinner diagonal part-2"></div>
-        </label>
+      <input
+        onClick={toggleNav}
+        type="checkbox"
+        id="openMenu"
+        className="btnmenu"
+      />
+      <label htmlFor="openMenu" className="sidebarIconToggle">
+        <div className="spinner diagonal part-1"></div>
+        <div className="spinner horizontal"></div>
+        <div className="spinner diagonal part-2"></div>
+      </label>
     </nav>
   );
 }
