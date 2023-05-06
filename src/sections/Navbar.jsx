@@ -118,9 +118,12 @@ export default function Navbar({ sidebarActive, setSidebarActive }) {
         </div>
       )}
 
-      <button onClick={toggleNav} className="btnmenu">
-        <img src="/assets/menu.png" alt="" /> {""}
-      </button>
+      <input onClick={toggleNav} type="checkbox" id="openMenu" className="btnmenu"/>
+        <label htmlFor="openMenu" className="sidebarIconToggle">
+          <div className="spinner diagonal part-1"></div>
+          <div className="spinner horizontal"></div>
+          <div className="spinner diagonal part-2"></div>
+        </label>
     </nav>
   );
 }
