@@ -7,6 +7,8 @@ export default function Navbar({ sidebarActive, setSidebarActive }) {
 
   const toggleNav = () => {
     setSidebarActive((currState) => !currState);
+    let input=document.getElementById("openMenu");
+    input.checked=sidebarActive;
   };
 
   useEffect(() => {
