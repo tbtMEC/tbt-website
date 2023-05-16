@@ -83,6 +83,13 @@ nav[active="true"] {
   z-index: 1001;
 }
 
+nav[active="false"] .sidebarIconToggle {
+  position: absolute;
+}
+nav[active="true"] .sidebarIconToggle {
+  position: fixed;
+}
+
 @media screen and (max-width: 992px) {
   .nav-wrapper {
     height: 100%;
