@@ -86,6 +86,10 @@ p.mainText {
     }
   }
 
+  #endSection hr {
+    border: 1px solid rgba(246, 247, 208, 0.83);
+  }
+
   #endSection p.bigText {
     font-style: oblique;
   }
