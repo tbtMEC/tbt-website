@@ -11,6 +11,12 @@ html {
   justify-content: center;
   display: block;
 }
+/*for the line in between*/
+footer hr {
+  border: 1px solid rgba(220, 209, 178, 0.83);
+  width: 95%;
+  margin: auto;
+}
 #footer {
   .icon {
     font-size: xx-large;
@@ -25,7 +31,15 @@ html {
     margin: 20px;
     border-width: 0.5px;
   }
-
+  .copyright {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 8px;
+  }
   .row {
     display: flex;
     justify-content: center;
@@ -117,38 +131,32 @@ html {
     transform: scale(1.1);
   }
 
-  /*for the line in between*/
-  #footer hr {
-    border: 1px solid rgba(220, 209, 178, 0.83);
-    width: 95%;
-    margin: auto;
-  }
-
   .footer-bottom p {
     font-family: "Poppins";
     font-style: normal;
     font-weight: 300;
-    font-size: 27px;
+    font-size: 2rem;
     word-spacing: 1px;
     line-height: 40px;
     padding-right: 20px;
     flex: 50%;
   }
-
-  @media (max-width: 992px) {
+}
+@media screen and (max-width: 992px) {
+  #footer {
     .footer-bottom {
       flex-direction: column-reverse;
     }
     .footer-bottom p {
       padding-right: 0;
     }
-    span.socials img {
+    .socials img {
       max-height: 16px;
       width: auto;
       align-items: center;
       text-align: center;
     }
-    hr {
+    .solid hr {
       border: 0.5px solid rgba(220, 209, 178, 0.83);
       width: 85%;
       margin-left: auto;
@@ -159,7 +167,7 @@ html {
       font-family: "Poppins";
       font-style: normal;
       font-weight: 300;
-      font-size: 18px;
+      font-size: 1rem;
       line-height: 40px;
     }
   }

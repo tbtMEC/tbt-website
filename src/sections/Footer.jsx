@@ -53,7 +53,7 @@ const Footer = () => {
             <div className="fbc">
               <p className="copyright">
                 &copy;{" "}
-                <span id="copyright-year">{new Date().getFullYear()}</span> The Book Thieves
+                <span id="copyright-year">{new Date().getFullYear() }</span> The Book Thieves
               </p>
             </div>
           </div>

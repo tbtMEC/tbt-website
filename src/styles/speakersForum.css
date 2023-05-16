@@ -4,86 +4,86 @@
   padding: 5%;
   overflow: hidden;
   min-height: 100vh;
-
-  .mic {
-    padding-left: 45%;
-    padding-bottom: 0%;
-    padding-top: 0%;
-    align-self: flex-end;
-  }
-  .container {
-    justify-content: flex-start;
-    flex-direction: column;
-    margin-right: 2%;
-    margin-left: 1%;
-  }
-  .container2 {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    flex-direction: row;
-  }
-  .box-1 {
-    justify-content: flex-start;
-    padding-bottom: 5%;
-  }
-  .box-2 {
-    max-height: max-content;
-  }
-  .box-3 {
-    justify-content: flex-start;
-    align-items: center;
-    padding-bottom: 5%;
-  }
-
-  #head_speak {
-    font-family: Stoke;
-    font-size: 3vw;
-    font-weight: 300;
-    max-height: fit-content;
-    letter-spacing: 0em;
-    text-align: right;
-    margin-left: -2%;
-    margin-right: auto;
-  }
-  #speak_cont {
-    font-family: Poppins;
-    font-size: 1.3rem;
-    text-align: right;
-  }
-  .girl {
-    margin-left: 1%;
-    margin-right: 2%;
-    max-width: 45%;
-  }
-
-  .Stars1 {
-    height: 100vh;
-    max-width: 90vw;
-    top: auto;
-    position: absolute;
-  }
-  .Stars2 {
-    height: 80vh;
-    width: 100%;
-    left: -3%;
-    top: auto;
-    border-radius: 0px;
-    position: absolute;
-    background-size: 50% 8%;
-    align-items: center;
-    padding-left: 1%;
-  }
-  .Star1 {
-    display: none;
-  }
-  .pho_girl {
-    display: none;
-  }
-  .mic_pho {
-    display: none;
-  }
 }
+
+.mic {
+  padding-left: 90%;
+  padding-bottom: 0%;
+  padding-top: 0%;
+}
+.container {
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-right: 2%;
+  margin-left: 1%;
+}
+.container2 {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+}
+.box-1 {
+  justify-content: flex-start;
+  padding-bottom: 5%;
+}
+.box-2 {
+  max-height: max-content;
+}
+.box-3 {
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 5%;
+}
+
+#head_speak {
+  font-family: Stoke;
+  font-size: 3vw;
+  font-weight: 300;
+  max-height: fit-content;
+  letter-spacing: 0em;
+  text-align: right;
+  margin-left: -2%;
+  margin-right: auto;
+}
+#speak_cont {
+  font-family: Poppins;
+  font-size: 1.3rem;
+  text-align: right;
+}
+.girl {
+  margin-left: 1%;
+  margin-right: 2%;
+  max-width: 45%;
+}
+
+.Stars1 {
+  height: 100vh;
+  max-width: 90vw;
+  top: auto;
+  position: absolute;
+}
+.Stars2 {
+  height: 80vh;
+  width: 100%;
+  left: -3%;
+  top: auto;
+  border-radius: 0px;
+  position: absolute;
+  background-size: 50% 8%;
+  align-items: center;
+  padding-left: 1%;
+}
+.Star1 {
+  display: none;
+}
+.pho_girl {
+  display: none;
+}
+.mic_pho {
+  display: none;
+}
+
 @media only screen and (max-width: 800px) {
   #speakersForum {
     text-align: center;
