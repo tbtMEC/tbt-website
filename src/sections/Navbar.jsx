@@ -22,13 +22,15 @@ export default function Navbar({ sidebarActive, setSidebarActive }) {
     };
 
     window.addEventListener("resize", changeWidth);
+
     if (sidebarActive && screenWidth > 992) {
       setSidebarActive(false);
     }
+
     return () => {
       window.removeEventListener("resize", changeWidth);
     };
-  }, []);
+  }, [screenWidth]);
 
   const sidebar =
     screenWidth > 992
@@ -64,13 +66,13 @@ export default function Navbar({ sidebarActive, setSidebarActive }) {
         }
       : {
           open: {
-            transform: "translate3d(0, 0, 0)",
+            transform: "translate3d(0, 0%, 0)",
             transition: {
               duration: 0.2,
               transform: {
                 type: "spring",
-                stiffness: 800,
-                restDelta: 50,
+                stiffness: 100,
+                damping: 18,
               },
               ease: "easeIn",
               staggerChildren: 0.05,
@@ -82,11 +84,12 @@ export default function Navbar({ sidebarActive, setSidebarActive }) {
             transition: {
               duration: 0.4,
               transform: {
-                delay: 0.2,
+                delay: 0.1,
                 type: "spring",
-                stiffness: 4000,
+                stiffness: 40,
                 damping: 10,
               },
+              opacity:{delay: 0.2},
               ease: "easeOut",
               staggerChildren: 0.05,
             },
