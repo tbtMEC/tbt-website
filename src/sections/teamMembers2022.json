@@ -1,0 +1,23 @@
+[
+  { "name": "Vishnumaya Unni", "designation": "President", "image": "president.png" },
+  { "name": "Sharat Jacob", "designation": "Vice President", "image": "vice_president.png" },
+  { "name": "Hisham Hashir", "designation": "Secretary", "image": "secretary.png" },
+  { "name": "Ashik K L", "designation": "Design Head", "image": "design_head.png" },
+  { "name": "Aldrin Jenson", "designation": "Tech Lead", "image": "tech_head.png" },
+  { "name": "N Sreelakshmi", "designation": "Content Head", "image": "content_head.png" },
+  {
+    "name": "N A Laila",
+    "designation": "Writer's Forum Head",
+    "image": "writers_forum_head.png"
+  },
+  {
+    "name": "Pranav H Nair",
+    "designation": "Speaker's Forum Head",
+    "image": "speakers_forum_head.png"
+  },
+  {
+    "name": "Sneha Shaji",
+    "designation": "Reader's Forum Head",
+    "image": "readers_forum_head.png"
+  }
+]
