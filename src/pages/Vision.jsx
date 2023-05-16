@@ -1,12 +1,36 @@
 import TeamSection from "../sections/NewTeamList";
 import "../styles/vision.css";
 import "../styles/loader.css";
+import "../styles/team.css";
+import ScrollToTop from "../components/scroll";
+import teamMembers2022 from "../sections/teamMembers2022.json";
 import Footer from "../sections/Footer";
 const VisionPage = () => {
   function loaded() {
     const loader = document.getElementById("loader");
     loader.style.display = "none";
   }
+
+  const data = teamMembers2022;
+  function makeCard(data) {
+    return (
+      <div key={data.designation} className="column">
+        <div className="border">
+          <div className="avatarBG">
+            <div className="avatar">
+              <img src={"teamMembers22Images/" + data.image} alt="image" />
+            </div>
+          </div>
+          <p>
+            {data.name}
+            <br></br>
+            {data.designation}
+          </p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <>
       <div id="loader" className="loading">
@@ -107,6 +131,27 @@ const VisionPage = () => {
             </section>
           </div>
           <TeamSection />
+          <div className="section" id="team">
+            <div className="head" style={{fontSize:"6vw"}}>Core Team 2022</div>
+
+            <div className="row">
+              {data.slice(0, 3).map((item) => {
+                return makeCard(item);
+              })}
+            </div>
+            <div className="row">
+              {data.slice(3, 6).map((item) => {
+                return makeCard(item);
+              })}
+            </div>
+            <div className="row">
+              {data.slice(6, 9).map((item) => {
+                return makeCard(item);
+              })}
+            </div>
+            <ScrollToTop />
+          </div>
+
           <Footer />
         </div>
       </div>

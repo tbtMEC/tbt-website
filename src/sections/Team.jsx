@@ -11,7 +11,7 @@ const Team = () => {
         <div className="border">
           <div className="avatarBG">
             <div className="avatar">
-              <img src={"teamMembers23Images/" + data.image} alt="president" />
+              <img src={"teamMembers23Images/" + data.image} alt="image" />
             </div>
           </div>
           <p>
