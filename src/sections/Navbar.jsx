@@ -77,7 +77,7 @@ export default function Navbar({ sidebarActive, setSidebarActive }) {
               ease: "easeIn",
               staggerChildren: 0.05,
             },
-            opacity: 1,
+            display: block,
           },
           closed: {
             transform: "translate3d(0, -100%, 0)",
@@ -93,7 +93,7 @@ export default function Navbar({ sidebarActive, setSidebarActive }) {
               ease: "easeOut",
               staggerChildren: 0.05,
             },
-            opacity: 0,
+            display: none,
             backgroundImage: "none",
           },
         };
