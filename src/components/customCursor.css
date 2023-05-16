@@ -2,8 +2,8 @@ html *,
 body * {
   user-select: none;
   cursor: none;
-  
-  a:hover {
+
+  a: hover {
     cursor: none;
   }
 }
@@ -45,10 +45,10 @@ body {
   background-color: rgba(var(--color-cursor), var(--cursor-outline-shade));
 }
 
-// html:not(html:hover) .cursor::after {
+/* // html:not(html:hover) .cursor::after {
 //   opacity: 0;
 //   transform: scale(0);
-// }
+// } */
 
 @media (pointer: coarse) {
   #cursor-dot,

@@ -1,6 +1,5 @@
-import "../styles/landing.scss";
+import "../styles/landing.css";
 
-// todo: Add stars in this section
 const Landing = () => {
   return (
     <div className="section" id="landing">

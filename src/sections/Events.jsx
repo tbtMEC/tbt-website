@@ -1,6 +1,6 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import "../styles/events.scss";
+import "../styles/events.css";
 import events from "../eventsData.json";
 import EventCard from "../components/eventCard";
 import useMediaQuery from "../hooks/useMediaQuery";

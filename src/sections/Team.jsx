@@ -1,6 +1,6 @@
 import React from "react";
 // import TeamMemberCard from "../components/teamMemberCard";
-import "../styles/team.scss";
+import "../styles/team.css";
 import ScrollToTop from "../components/scroll";
 import teamMembers2023 from "./teamMembers2023.json";
 const Team = () => {

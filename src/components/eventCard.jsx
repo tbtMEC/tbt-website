@@ -1,4 +1,4 @@
-import "./eventCard.scss";
+import "./eventCard.css";
 
 const EventCard = ({ event }) => {
   const {

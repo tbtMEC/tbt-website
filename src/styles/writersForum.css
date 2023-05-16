@@ -45,6 +45,7 @@
   }
 
   .book {
+    border: none;
     border-radius: 20%;
     height: auto;
     width: 40vw;
@@ -92,6 +93,9 @@
 }
 
 @media only screen and (max-width: 800px) {
+  #writersForum p {
+    padding: 0 13%;
+  }
   #writersForum {
     .flex-col {
       flex-direction: column;
@@ -101,9 +105,7 @@
     .box-1 {
       max-width: 440px;
     }
-    p {
-      padding: 0 13%;
-    }
+
     #write_head {
       text-align: center;
       align-items: flex-start;

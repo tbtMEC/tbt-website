@@ -1,4 +1,4 @@
-import "../styles/about.scss"; // css file for landing page
+import "../styles/about.css"; // css file for landing page
 
 const About = () => {
   return (

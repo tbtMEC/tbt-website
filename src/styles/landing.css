@@ -1,5 +1,31 @@
+#landing h1 {
+  font-family: Stoke;
+  font-size: 7vw;
+  color: #f6f7d1;
+  text-align: center;
+}
+#landing p {
+  font-family: Stoke;
+  font-size: 3vw;
+  color: #edd7b8;
+  text-align: center;
+}
+#landing a {
+  text-decoration: none;
+  font-family: stoke;
+  font-size: 30px;
+  color: #8e2f30;
+  text-align: center;
+  margin-top: 50px;
+}
+#landing button {
+  height: 68.93px;
+  width: 200px;
+  border-radius: 40px;
+  opacity: 77%;
+}
 #landing {
-  background: center no-repeat url("../../public/assets/bg.webp");
+  background: center no-repeat url("/assets/bg.webp");
   background-size: cover;
   min-height: 100vh;
   display: flex;
@@ -16,26 +42,6 @@
     justify-content: center;
   }
 
-  h1 {
-    font-family: Stoke;
-    font-size: 7vw;
-    color: #f6f7d1;
-    text-align: center;
-  }
-  p {
-    font-family: Stoke;
-    font-size: 3vw;
-    color: #edd7b8;
-    text-align: center;
-  }
-  a {
-    text-decoration: none;
-    font-family: stoke;
-    font-size: 30px;
-    color: #8e2f30;
-    text-align: center;
-    margin-top: 50px;
-  }
   .join-btn {
     text-decoration: none;
     font-family: stoke;
@@ -46,12 +52,7 @@
     border: none;
     background-color: #f6f7d1;
   }
-  button {
-    height: 68.93px;
-    width: 200px;
-    border-radius: 40px;
-    opacity: 77%;
-  }
+
   @media screen and (max-width: 600px) {
     #text-content {
       top: 45vh;

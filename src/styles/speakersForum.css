@@ -89,7 +89,7 @@
     text-align: center;
     flex-direction: column;
     align-items: center;
-    p {
+    #speakersForum p {
       padding: 0 10%;
     }
     .container {
