@@ -1,52 +1,52 @@
 [
   {
     "name": "Rashid M. E.",
-    "imagePath": "rashidSir.jpeg",
+    "image": "rashidSir.png",
     "designation": "Staff In Charge"
   },
   {
     "name": "Vishnumaya",
-    "imagePath": "vishnumaya.jpeg",
+    "image": "vishnumaya.png",
     "designation": "President"
   },
   {
     "name": "Ashwathy S.",
-    "imagePath": "ashu.jpeg",
+    "image": "ashu.png",
     "designation": "Vice President"
   },
   {
     "name": "Aromal A. S.",
-    "imagePath": "aromal.jpeg",
+    "image": "aromal.png",
     "designation": "Secretary"
   },
   {
     "name": "Malavika M.",
-    "imagePath": "malavika.jpeg",
+    "image": "malavika.png",
     "designation": "Design Head"
   },
   {
     "name": "Namitha Shaji",
-    "imagePath": "namitha.jpeg",
+    "image": "namitha.png",
     "designation": "Content Head"
   },
   {
     "name": "Riya Lalu",
-    "imagePath": "riya.jpeg",
+    "image": "riya.png",
     "designation": "Publicity Head"
   },
   {
     "name": "Arya Parameswaran",
-    "imagePath": "arya.jpeg",
+    "image": "arya.png",
     "designation": "Writer's Forum Head"
   },
   {
     "name": "Leah Joseph",
-    "imagePath": "leah.jpeg",
+    "image": "leah.png",
     "designation": "Reader's Forum Head"
   },
   {
     "name": "Pranav H. Nair",
-    "imagePath": "pranav.jpeg",
+    "image": "pranav.png",
     "designation": "Speaker's Forum Head"
   }
 ]
