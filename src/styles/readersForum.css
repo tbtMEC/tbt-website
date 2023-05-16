@@ -1,3 +1,6 @@
+#readersForum p {
+  color: #f6f7d1;
+}
 #readersForum {
   background-color: #360709;
   min-height: 100vh;
@@ -20,9 +23,7 @@
     align-items: flex-start;
     margin-right: 10vw;
   }
-  .book {
-    width: 100px;
-  }
+
   .head {
     font-family: Stoke;
     font-size: 6vw;
@@ -60,15 +61,22 @@
     height: fit-content;
     font-size: 1.3rem;
   }
-  p {
-    color: #f6f7d1;
-  }
-  .book1 {
-    width: 0;
-    height: 0;
-  }
 
+  .book1 {
+    display: none;
+  }
+  .book {
+    border: none;
+  }
   @media only screen and (max-width: 800px) {
+    .book1 {
+      width: 43.98px;
+      height: auto;
+      position: absolute;
+      padding-top: 50.4px;
+      right: 44.73%;
+      display: block;
+    }
     flex-wrap: wrap;
     width: auto;
     display: flex;
@@ -108,10 +116,7 @@
       color: #f6f7d1;
     }
     .book {
-      height: 0;
-      width: 0;
-      text-align: center;
-      margin: 0;
+      display: none;
     }
 
     p {
@@ -122,13 +127,7 @@
       margin-bottom: 120px;
       text-align: center;
     }
-    .book1 {
-      width: 43.98px;
-      height: auto;
-      position: absolute;
-      padding-top: 50.4px;
-      right: 44.73%;
-    }
+
     .Stars {
       display: none;
     }

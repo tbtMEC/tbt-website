@@ -1,8 +1,17 @@
+html {
+  scroll-behavior: smooth;
+}
+#footer footer {
+  background: #53171b;
+  position: absolute;
+  height: auto;
+  width: 100%;
+  color: #dcd1b2;
+  font-family: "poppins";
+  justify-content: center;
+  display: block;
+}
 #footer {
-  html {
-    scroll-behavior: smooth;
-  }
-
   .icon {
     font-size: xx-large;
     margin-right: 4px;
@@ -17,17 +26,6 @@
     border-width: 0.5px;
   }
 
-  footer {
-    background: #53171b;
-    position: absolute;
-    height: auto;
-    width: 100%;
-    color: #dcd1b2;
-    font-family: "poppins";
-    justify-content: center;
-    display: block;
-  }
-
   .row {
     display: flex;
     justify-content: center;
@@ -39,7 +37,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    //align-content: center;
+    /* //align-content: center; */
   }
 
   .footer-content img {
@@ -81,7 +79,12 @@
     padding: 20px 0;
     align-items: center;
   }
-
+  .socials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
   .socials ul {
     list-style: none;
     display: flex;
@@ -115,7 +118,7 @@
   }
 
   /*for the line in between*/
-  hr {
+  #footer hr {
     border: 1px solid rgba(220, 209, 178, 0.83);
     width: 95%;
     margin: auto;
@@ -139,7 +142,7 @@
     .footer-bottom p {
       padding-right: 0;
     }
-    .socials img {
+    span.socials img {
       max-height: 16px;
       width: auto;
       align-items: center;

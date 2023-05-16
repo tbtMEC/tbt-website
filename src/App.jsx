@@ -8,7 +8,7 @@ import { Route } from "react-router-dom";
 import Navbar from "./sections/Navbar";
 import { useState } from "react";
 import FourNotFour from "./pages/FourNotFour";
-import "./styles/app.scss";
+import "./styles/app.css";
 
 /* import Cursor from "./components/customCursor"; */
 
@@ -65,7 +65,7 @@ const App = () => {
           )}
         </div>
       )}
-      )
+      
     </div>
   );
 };

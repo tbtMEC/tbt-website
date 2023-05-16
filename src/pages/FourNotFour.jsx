@@ -1,5 +1,5 @@
 import { HashLink } from "react-router-hash-link";
-import "../styles/fourNotFour.scss";
+import "../styles/fourNotFour.css";
 import Footer from "../sections/Footer"
 
 const FourNotFour = () => (

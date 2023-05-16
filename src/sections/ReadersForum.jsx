@@ -1,4 +1,4 @@
-import "../styles/readersForum.scss";
+import "../styles/readersForum.css";
 
 const ReadersForum = () => {
   return (

@@ -2,7 +2,7 @@ import { FaInstagram } from "react-icons/fa";
 import { MdAlternateEmail } from "react-icons/md";
 import { RxDiscordLogo, RxTwitterLogo } from "react-icons/rx";
 import { TbBrandLinkedin, TbBrandYoutube } from "react-icons/tb";
-import "../styles/footer.scss";
+import "../styles/footer.css";
 
 const Footer = () => {
   return (

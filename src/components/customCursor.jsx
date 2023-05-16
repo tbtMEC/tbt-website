@@ -1,4 +1,4 @@
-import "./customCursor.scss";
+import "./customCursor.css";
 import React from "react";
 
 export default function Cursor() {

@@ -1,7 +1,7 @@
 import React from "react";
 import TeamMemberCard from "../components/teamMemberCard";
 import teamMembers21 from "../teamMembers21.json";
-import "../styles/newTeam.scss";
+import "../styles/newTeam.css";
 import ScrollToTop from "../components/scroll";
 
 const TeamSection = () => {

@@ -1,4 +1,4 @@
-import "../styles/speakersForum.scss";
+import "../styles/speakersForum.css";
 
 const SpeakersForum = () => {
   return (

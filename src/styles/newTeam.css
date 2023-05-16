@@ -1,6 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Stoke&display=swap");
-#team {
+#newTeam {
+  padding: 0% 10%;
+  .flex {
+    display: flex;
+  }
+  .center {
+    justify-content: center;
+  }
+  .wrap {
+    flex-wrap: wrap;
+  }
+  .flexCenterRow {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
   background: #53090e;
+  height: auto;
   background-position: center center;
   background-attachment: fixed;
   background-size: contain;
@@ -26,54 +43,28 @@
   }
 
   .column {
-    padding: 1vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex: 33.33%;
+    padding: 5px;
   }
 
   .row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    padding-left: 5vw;
     padding-bottom: 5vh;
   }
-  .column :hover .avatar {
-    filter: grayscale(0);
-    transform: translateY(-5px) scale(1.05, 1.05);
-  }
-  .avatar {
-    filter: grayscale(75%);
-    transform-origin: 50% 50%;
-    transform: translateY(5px) scale(1, 1);
-    transition: transform 0.2s ease-in;
-    z-index: -1;
-    position: relative;
-  }
+
   .column img {
     width: 100%;
-    justify-content: center;
-    height: 15vw;
-    transform: translateY(10px);
+    height: 100%;
     object-fit: cover;
+    justify-content: center;
   }
-  .avatarBG {
-    background-image: url("../../public/assets/bgLogo.png");
-    background-size: 50%;
-    background-clip: padding-box;
-    z-index: -1;
-    overflow: hidden;
-    position: relative;
-    margin-bottom: 1vh;
-    transition: transform 0.2s ease-in;
-  }
-  .avatarBG:hover {
-    transform: scale(1.05, 1.05);
-  }
+
   .head {
     text-align: center;
-    font-size: 6vw;
+    font-size: xx-large;
     font-family: "stoke";
     padding-left: 2vw;
     padding-top: 3vw;
@@ -82,50 +73,58 @@
   }
   .border {
     background-color: transparent;
-    height: 25vw;
+    aspect-ratio: 1;
     width: 25vw;
     outline: 4px solid rgba(246, 247, 208, 0.83);
     outline-offset: -1.5vw;
     margin-bottom: 5vh;
-    z-index: 0;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10%;
   }
   .border p {
     font-size: 1.5vw;
     text-align: center;
     font-family: "Poppins";
     padding-top: 0.5vw;
+
     color: rgba(248, 250, 193, 0.83);
-    z-index: 5;
-    position: relative;
   }
-  .scroll {
-    display: flex;
-    justify-content: center;
-    z-index: 5;
-    padding-bottom: 5rem;
-    position: relative;
-  }
-  @media only screen and (max-width: 640px) {
 
-    .head {
-      font-size: 10vw;
-    }
-    .row {
-      flex-direction: column;
-    }
-
+  @media screen and (max-width: 600px) {
     .border {
-      height: 53vw;
-      width: 50vw;
+      height: min-content;
+      width: 80%;
       outline-offset: -2.5vw;
+      padding-bottom: 1%;
+    }
+
+    .column img {
+      object-fit: cover;
     }
 
     .border p {
-      font-size: 3.75vw;
+      font-size: 4.5vw;
+      padding-bottom: 5%;
     }
-    .column img {
-      height: 32vw;
+    .column {
+      /* // padding-top: 4vw; */
+      padding-left: 0vw;
+      display: flex;
+      flex: 100%;
+      /* // width: 100%; */
+      justify-content: center;
+      align-content: center;
     }
+  }
+
+  .scroll {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 8vh;
   }
 }
