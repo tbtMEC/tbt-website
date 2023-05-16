@@ -24,7 +24,7 @@ const TeamSection = () => {
   }
   return (
     <div className="section" id="team">
-      <div className="head">Our Team</div>
+      <div className="head">Core Team 2021</div>
       <div className="row">
         {data.slice(0, 1).map((item) => {
           return makeCard(item);
