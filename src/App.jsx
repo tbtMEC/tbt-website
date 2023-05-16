@@ -47,12 +47,9 @@ const App = () => {
             setSidebarActive={setSidebarActive}
           />
           <Routes>
-            <Route exact path="/" element={sidebarActive ? null : <Home />} />
-            <Route
-              path="/vision"
-              element={sidebarActive ? null : <VisionPage />}
-            />
-            <Route path="*" element={sidebarActive ? null : <FourNotFour />} />
+            <Route exact path="/" element={<Home />} />
+            <Route path="/vision" element={<VisionPage />} />
+            <Route path="*" element={<FourNotFour />} />
           </Routes>
         </BrowserRouter>
       </div>
@@ -65,7 +62,6 @@ const App = () => {
           )}
         </div>
       )}
-      
     </div>
   );
 };
