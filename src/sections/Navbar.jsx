@@ -77,7 +77,7 @@ export default function Navbar({ sidebarActive, setSidebarActive }) {
               ease: "easeIn",
               staggerChildren: 0.05,
             },
-            display: block,
+            opacity: 1,
           },
           closed: {
             transform: "translate3d(0, -100%, 0)",
@@ -89,17 +89,17 @@ export default function Navbar({ sidebarActive, setSidebarActive }) {
                 stiffness: 40,
                 damping: 10,
               },
-              opacity:{delay: 0.2},
+              opacity: { delay: 0.2 },
               ease: "easeOut",
               staggerChildren: 0.05,
             },
-            display: none,
+            opacity: 0,
             backgroundImage: "none",
           },
         };
 
   return (
-    <nav>
+    <nav active={sidebarActive.toString()}>
       {!sidebarActive ? (
         <div className="logo-wrapper">
           <HashLink to="/">
