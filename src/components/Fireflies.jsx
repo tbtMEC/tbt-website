@@ -2,42 +2,6 @@ import React, { useEffect, useState } from "react";
 import "./fireflies.css";
 function Fireflies() {
   const [screenWidth, setScreenWidth] = useState();
-
-  useEffect(() => {
-    const canvas = document.getElementById("fireflies");
-    canvas.width = window.innerWidth - 50;
-    canvas.height = window.innerHeight;
-
-    const ctx = canvas.getContext("2d");
-    const fireflies = [];
-
-    for (let i = 0; i < 20; i++) {
-      fireflies.push(new Firefly(canvas));
-    }
-
-    function animate() {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-      for (const firefly of fireflies) {
-        firefly.update();
-        firefly.draw();
-      }
-
-      requestAnimationFrame(animate);
-    }
-
-    const changeWidth = () => {
-      setScreenWidth(window.innerWidth);
-    };
-
-    window.addEventListener("resize", changeWidth);
-
-    return () => {
-      animate();
-      window.removeEventListener("resize", changeWidth);
-    };
-  }, [screenWidth]);
-
   class Firefly {
     constructor(canvas) {
       this.canvas = canvas;
@@ -73,6 +37,41 @@ function Fireflies() {
       this.ctx.fill();
     }
   }
+
+  useEffect(() => {
+    const canvas = document.getElementById("fireflies");
+    canvas.width = window.innerWidth - 50;
+    canvas.height = window.innerHeight;
+
+    const ctx = canvas.getContext("2d");
+    const fireflies = [];
+
+    for (let i = 0; i < 20; i++) {
+      fireflies.push(new Firefly(canvas));
+    }
+
+    function animate() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      for (const firefly of fireflies) {
+        firefly.update();
+        firefly.draw();
+      }
+
+      requestAnimationFrame(animate);
+    }
+
+    const changeWidth = () => {
+      setScreenWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", changeWidth);
+
+    return () => {
+      animate();
+      window.removeEventListener("resize", changeWidth);
+    };
+  }, [screenWidth]);
 
   return <canvas id="fireflies"></canvas>;
 }

@@ -4,7 +4,7 @@ import Fireflies from "../components/Fireflies";
 const Landing = () => {
   return (
     <div className="section" id="landing">
-      <Fireflies />;
+      <Fireflies />
       <div style={{ textAlign: "center" }} id="text-content">
         <span data-aos="fade-up">
           <h1>Welcome to TBT</h1>
