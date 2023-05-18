@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./fireflies.css";
 function Fireflies() {
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const [screenWidth, setScreenWidth] = useState();
 
   useEffect(() => {
     const canvas = document.getElementById("fireflies");
