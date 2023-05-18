@@ -30,7 +30,7 @@ export default function Navbar({ sidebarActive, setSidebarActive }) {
     return () => {
       window.removeEventListener("resize", changeWidth);
     };
-  }, [screenWidth]);
+  }, [screenWidth,sidebarActive]);
 
   const sidebar =
     screenWidth > 992
@@ -99,7 +99,7 @@ export default function Navbar({ sidebarActive, setSidebarActive }) {
         };
 
   return (
-    <nav active={sidebarActive.toString()}>
+    <nav active={sidebarActive.toString()} key={screenWidth}>
       {!sidebarActive ? (
         <div className="logo-wrapper">
           <HashLink to="/">
