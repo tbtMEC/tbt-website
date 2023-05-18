@@ -60,6 +60,8 @@ function Fireflies() {
 
       requestAnimationFrame(animate);
     }
+    
+    animate();
 
     const changeWidth = () => {
       setScreenWidth(window.innerWidth);
@@ -68,7 +70,6 @@ function Fireflies() {
     window.addEventListener("resize", changeWidth);
 
     return () => {
-      animate();
       window.removeEventListener("resize", changeWidth);
     };
   }, [screenWidth]);
