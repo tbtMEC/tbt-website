@@ -74,7 +74,7 @@ function Fireflies() {
     };
   }, [screenWidth]);
 
-  return <canvas id="fireflies"></canvas>;
+  return <canvas key={screenWidth} id="fireflies"></canvas>;
 }
 
 export default Fireflies;
