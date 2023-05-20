@@ -40,8 +40,9 @@ function Fireflies() {
 
   useEffect(() => {
     const canvas = document.getElementById("fireflies");
-    canvas.width = window.innerWidth - 50;
-    canvas.height = window.innerHeight;
+    const landing= document.getElementById("landing");
+    canvas.width = landing.clientWidth;
+    canvas.height = landing.clientHeight;
 
     const ctx = canvas.getContext("2d");
     const fireflies = [];
