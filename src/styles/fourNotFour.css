@@ -3,6 +3,7 @@
   background-attachment: fixed;
   background-size: contain;
   background-image: url("https://the-book-thieves.netlify.app/assets/Stars.png");
+  margin-top: 2.5rem;
   #err h1 {
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     font-weight: bold;
