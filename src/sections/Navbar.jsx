@@ -207,7 +207,7 @@ export default function Navbar({ sidebarActive, setSidebarActive }) {
               <motion.div className="items" variants={sidebar} key={4}>
                 <a
                   onClick={() => setSidebarActive(false)}
-                  href="https://tbt-book-exchange.netlify.app/"
+                  href="https://the-thieves-library.netlify.app"
                 >
                   The Thieves' Library
                 </a>
