@@ -195,14 +195,15 @@ export default function Navbar({ sidebarActive, setSidebarActive }) {
                   Vision
                 </HashLink>
               </motion.div>
-              <motion.div className="items" variants={sidebar} key={3}>
+              {/* <motion.div className="items" variants={sidebar} key={3}>
                 <a
                   onClick={() => setSidebarActive(false)}
                   href="https://event-bridge-alpha.vercel.app/"
+                  disabled
                 >
                   Events
                 </a>
-              </motion.div>
+              </motion.div> */}
               <motion.div className="items" variants={sidebar} key={4}>
                 <a
                   onClick={() => setSidebarActive(false)}

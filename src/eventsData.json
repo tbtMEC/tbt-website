@@ -33,5 +33,13 @@
     "url": "https://www.instagram.com/p/CWM4UTTPjF2/",
     "description": "Donate your books and make a difference - join our book donation drive and help spread the love of reading!",
     "tags": ["event", "social cause", "thanal"]
+  },
+  {
+    "title": "Enchanted Inkwell",
+    "imagePath": "inkwellreel.png",
+    "url": "https://www.instagram.com/reel/Cq0hDu-gycD/",
+    "description": "Many visited the Enchanted Inkwell, filled with wonders and exciting activities. It blessed all its visitors with lovely memories and joy.",
+    "tags": ["techfest", "excel2022", "enchantedinkwell"]
   }
+
 ]
